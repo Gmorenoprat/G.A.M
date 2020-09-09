@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Barotaje.unity
+    guid: db9bb3a2054ea2f43b51303169bcfa09
+  - enabled: 1
+    path: Assets/Scenes/Characters Select.unity
+    guid: 52b6321d70083d547ad6e4a5ff94a791
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 5f0267b23ba3bd642b86bfd558b6ca29
+  - enabled: 1
+    path: Assets/Scenes/God save the Queen.unity
+    guid: 2e192eda2b6067c479a8572c765367b7
+  - enabled: 1
+    path: Assets/Scenes/winner & losers.unity
+    guid: c99dd55a359398b46b66937622f7c75e
   m_configObjects: {}
