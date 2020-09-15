@@ -8,11 +8,9 @@ public class CharacterSet : MonoBehaviour
     public float speed, horizontal, jumpForce, maxJump, avJump;
     public Vector3 face;
     public bool onAir;
-    public DestroyableComp destroyable;
 
     void Start()
     {
-        destroyable = this.GetComponent<DestroyableComp>();
         rb = this.GetComponent<Rigidbody2D>();
         face = this.transform.right;
     }
@@ -26,10 +24,6 @@ public class CharacterSet : MonoBehaviour
         else if (horizontal < 0)
         {
             face = this.transform.right * -1;
-        }
-        if (destroyable.life <= 0)
-        {
-            GameObject.Destroy(this.gameObject);
         }
     }
 
