@@ -87,11 +87,8 @@ public class GroundScript : MonoBehaviour
                 nx = c.x - i;
                 py = c.y + j;
                 ny = c.y - j;
-
-                //cloneTexture.SetPixel(px, py, Color.clear);
-                cloneTexture.SetPixel(nx, py, Color.clear);
-                cloneTexture.SetPixel(px, ny, Color.clear);
-                cloneTexture.SetPixel(nx, ny, Color.clear);
+                print("px=" + px);
+                cloneTexture.SetPixel(px, py, Color.clear);
             }
         }
         cloneTexture.Apply();
