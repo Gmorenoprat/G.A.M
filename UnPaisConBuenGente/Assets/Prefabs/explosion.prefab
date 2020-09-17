@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &9047334817464842832
+--- !u!1 &5072509838758398997
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9047334817464842833}
-  - component: {fileID: 9047334817464842838}
-  - component: {fileID: 9047334817464842839}
+  - component: {fileID: 4706532308855303529}
+  - component: {fileID: 3950933545625244939}
   m_Layer: 0
   m_Name: explosion
   m_TagString: Untagged
@@ -18,46 +17,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9047334817464842833
+--- !u!4 &4706532308855303529
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9047334817464842832}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.41, y: 3.66, z: 0}
-  m_LocalScale: {x: 0.048331447, y: 0.048331447, z: 0.048331447}
+  m_GameObject: {fileID: 5072509838758398997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.42, y: 3.65, z: -5.158203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &9047334817464842838
+--- !u!58 &3950933545625244939
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9047334817464842832}
+  m_GameObject: {fileID: 5072509838758398997}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.57531005, y: 0.32659358}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 36.818718
---- !u!114 &9047334817464842839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9047334817464842832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df35c7c399ca48442a406f6578bec392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 35
+  m_Radius: 1.0796155
