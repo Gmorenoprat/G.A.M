@@ -9,9 +9,13 @@ public class CharacterSet : MonoBehaviour
     public Vector3 face;
     public bool onAir;
     public DestroyableComp destroyable;
+    public Animator Anim_Pinguin;
+    public SpriteRenderer MainSprite;
 
     void Start()
     {
+        MainSprite = this.GetComponent<SpriteRenderer>();
+        Anim_Pinguin = this.GetComponent<Animator>();
         destroyable = this.GetComponent<DestroyableComp>();
         rb = this.GetComponent<Rigidbody2D>();
         face = this.transform.right;
@@ -19,22 +23,29 @@ public class CharacterSet : MonoBehaviour
 
     void Update()
     {
-        if (horizontal > 0)
+        if (horizontal < 0)
         {
-            face = this.transform.right;
+            MainSprite.flipX = true;
         }
-        else if (horizontal < 0)
+        else if (horizontal > 0)
         {
-            face = this.transform.right * -1;
+            MainSprite.flipX = false;
         }
+
         if (destroyable.life <= 0)
         {
             GameObject.Destroy(this.gameObject);
         }
+
+        
+
+        Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
+        Anim_Pinguin.SetFloat("jump", rb.velocity.y);
     }
 
     public void Die()
     {
+        Anim_Pinguin.Play("die");
         GameObject.Destroy(this.gameObject);
     }
 
@@ -48,12 +59,15 @@ public class CharacterSet : MonoBehaviour
         realVelocity.z = 0;
 
         rb.velocity = realVelocity;
+
+       
     }
 
     public void Jump()
     {
         if (avJump > 0 && onAir == false)
         {
+            Anim_Pinguin.Play("jump");
             rb.velocity = Vector3.zero;
             rb.AddForce(Vector3.up * jumpForce * rb.gravityScale * rb.mass, ForceMode2D.Impulse);
             avJump--;
@@ -67,6 +81,7 @@ public class CharacterSet : MonoBehaviour
             avJump = maxJump;
             onAir = false;
             this.transform.parent = collision.transform;
+            Anim_Pinguin.Play("movement");
         }
     }
 

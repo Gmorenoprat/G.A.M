@@ -1,0 +1,4555 @@
+fileFormatVersion: 2
+guid: 72926706d5ebcd14ab4a2a2730910690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5512718406912222677
+    second: pingui_0
+  - first:
+      213: -265007872102312492
+    second: pingui_1
+  - first:
+      213: 2155391558971310495
+    second: pingui_2
+  - first:
+      213: -5130779071179875198
+    second: pingui_3
+  - first:
+      213: 3521529939143722208
+    second: pingui_4
+  - first:
+      213: 4885160070935827350
+    second: pingui_5
+  - first:
+      213: -8718236511737349249
+    second: pingui_6
+  - first:
+      213: -6364455628253001402
+    second: pingui_7
+  - first:
+      213: 7168605865241003
+    second: pingui_8
+  - first:
+      213: -6397394483262051
+    second: pingui_9
+  - first:
+      213: -3610043012729589156
+    second: pingui_10
+  - first:
+      213: 5968850772953706296
+    second: pingui_11
+  - first:
+      213: -5472728135253139598
+    second: pingui_12
+  - first:
+      213: -7665309620218765673
+    second: pingui_13
+  - first:
+      213: 6416947319235468641
+    second: pingui_14
+  - first:
+      213: -1803926144901439905
+    second: pingui_15
+  - first:
+      213: -2762838742297185801
+    second: pingui_16
+  - first:
+      213: 3298751408760800564
+    second: pingui_17
+  - first:
+      213: -3526612553913766484
+    second: pingui_18
+  - first:
+      213: 1010190941450310117
+    second: pingui_19
+  - first:
+      213: -3732338866629858160
+    second: pingui_20
+  - first:
+      213: 2467233377194325575
+    second: pingui_21
+  - first:
+      213: 5404345855513793132
+    second: pingui_22
+  - first:
+      213: -382115661634608795
+    second: pingui_23
+  - first:
+      213: -2084526714178770433
+    second: pingui_24
+  - first:
+      213: 2694528604611354057
+    second: pingui_25
+  - first:
+      213: 8018061613438295829
+    second: pingui_26
+  - first:
+      213: -1658810149996713109
+    second: pingui_27
+  - first:
+      213: 3537530851930549223
+    second: pingui_28
+  - first:
+      213: -2590827121146492335
+    second: pingui_29
+  - first:
+      213: -3077131831999909318
+    second: pingui_30
+  - first:
+      213: -4130202700510724862
+    second: pingui_31
+  - first:
+      213: -2286731032760781964
+    second: pingui_32
+  - first:
+      213: -9202466642767447729
+    second: pingui_33
+  - first:
+      213: 2479247880031460395
+    second: pingui_34
+  - first:
+      213: -3435082826708298464
+    second: pingui_35
+  - first:
+      213: -638044044139325275
+    second: pingui_36
+  - first:
+      213: 2134881765317866465
+    second: pingui_37
+  - first:
+      213: -2144232395099727855
+    second: pingui_38
+  - first:
+      213: 5855051860878223398
+    second: pingui_39
+  - first:
+      213: 4812924505927439340
+    second: pingui_40
+  - first:
+      213: 2230854335525422202
+    second: pingui_41
+  - first:
+      213: 7066793387240813661
+    second: pingui_42
+  - first:
+      213: 7276366875204232230
+    second: pingui_43
+  - first:
+      213: 927239781259194657
+    second: pingui_44
+  - first:
+      213: -2031086505719609893
+    second: pingui_45
+  - first:
+      213: -2333319120672832469
+    second: pingui_46
+  - first:
+      213: 8679717841629601393
+    second: pingui_47
+  - first:
+      213: -2836555730272755887
+    second: pingui_48
+  - first:
+      213: -590587857292679710
+    second: pingui_49
+  - first:
+      213: -7032234347400807828
+    second: pingui_50
+  - first:
+      213: 5471755068914236546
+    second: pingui_51
+  - first:
+      213: 7149266044801118362
+    second: pingui_52
+  - first:
+      213: -5364757761698886662
+    second: pingui_53
+  - first:
+      213: 1068211909521363188
+    second: pingui_54
+  - first:
+      213: 212577554567242767
+    second: pingui_55
+  - first:
+      213: 1423081090276630078
+    second: pingui_56
+  - first:
+      213: -3853348747429245016
+    second: pingui_57
+  - first:
+      213: 2857611357187874642
+    second: pingui_58
+  - first:
+      213: -7174597872104245446
+    second: pingui_59
+  - first:
+      213: 1436639335806384700
+    second: pingui_60
+  - first:
+      213: -1860010223167160543
+    second: pingui_61
+  - first:
+      213: -5347383026040708629
+    second: pingui_62
+  - first:
+      213: -8511031039048603180
+    second: pingui_63
+  - first:
+      213: -8436257070494785720
+    second: pingui_64
+  - first:
+      213: 3071493956195179219
+    second: pingui_65
+  - first:
+      213: -8651590589080840218
+    second: pingui_66
+  - first:
+      213: 8874065149426075064
+    second: pingui_67
+  - first:
+      213: 827652166288786411
+    second: pingui_68
+  - first:
+      213: 7791848002193301604
+    second: pingui_69
+  - first:
+      213: -8835019478599684201
+    second: pingui_70
+  - first:
+      213: 228514006009282385
+    second: pingui_71
+  - first:
+      213: -7629962413759810623
+    second: pingui_72
+  - first:
+      213: -2989965158432104602
+    second: pingui_73
+  - first:
+      213: 3468407928923115023
+    second: pingui_74
+  - first:
+      213: 5743264901213986915
+    second: pingui_75
+  - first:
+      213: 5633417862845694371
+    second: pingui_76
+  - first:
+      213: -1890341041273131166
+    second: pingui_77
+  - first:
+      213: -3506465945827220879
+    second: pingui_78
+  - first:
+      213: -7578462856074262505
+    second: pingui_79
+  - first:
+      213: -2202166621186267995
+    second: pingui_80
+  - first:
+      213: -2217964104294462682
+    second: pingui_81
+  - first:
+      213: 6560049013234868460
+    second: pingui_82
+  - first:
+      213: -8036390370646185693
+    second: pingui_83
+  - first:
+      213: 29547780144307705
+    second: pingui_84
+  - first:
+      213: 4884486623981403146
+    second: pingui_85
+  - first:
+      213: 54311449672802085
+    second: pingui_86
+  - first:
+      213: -6490626707690884419
+    second: pingui_87
+  - first:
+      213: 9040635362661414652
+    second: pingui_88
+  - first:
+      213: -163077973275522266
+    second: pingui_89
+  - first:
+      213: 1513884804456041889
+    second: pingui_90
+  - first:
+      213: 2258277952025046665
+    second: pingui_91
+  - first:
+      213: 2404387643262955619
+    second: pingui_92
+  - first:
+      213: -4608729206615469677
+    second: pingui_93
+  - first:
+      213: 2146507625129753036
+    second: pingui_94
+  - first:
+      213: 5086758424427562439
+    second: pingui_95
+  - first:
+      213: 3637946102673837878
+    second: pingui_96
+  - first:
+      213: -7987089882102281787
+    second: pingui_97
+  - first:
+      213: 5165975139535253992
+    second: pingui_98
+  - first:
+      213: -8114328336099387460
+    second: pingui_99
+  - first:
+      213: 3652989062431234294
+    second: pingui_100
+  - first:
+      213: -1617880343697081834
+    second: pingui_101
+  - first:
+      213: 7848715443148708286
+    second: pingui_102
+  - first:
+      213: -436876023607327159
+    second: pingui_103
+  - first:
+      213: -5406001373496567218
+    second: pingui_104
+  - first:
+      213: -889036392280923450
+    second: pingui_105
+  - first:
+      213: 7018415684642899291
+    second: pingui_106
+  - first:
+      213: 3841251199172863998
+    second: pingui_107
+  - first:
+      213: 8279152255312557032
+    second: pingui_108
+  - first:
+      213: -8506622683901241742
+    second: pingui_109
+  - first:
+      213: 6382529509184065164
+    second: pingui_110
+  - first:
+      213: -4488404608923757389
+    second: pingui_111
+  - first:
+      213: 1928253472420196367
+    second: pingui_112
+  - first:
+      213: 909593965530273583
+    second: pingui_113
+  - first:
+      213: 5895575204490153013
+    second: pingui_114
+  - first:
+      213: -6277771087759843198
+    second: pingui_115
+  - first:
+      213: 6309915936442168940
+    second: pingui_116
+  - first:
+      213: 4839602713544844611
+    second: pingui_117
+  - first:
+      213: -7404577286834516733
+    second: pingui_118
+  - first:
+      213: 7371681768904486692
+    second: pingui_119
+  - first:
+      213: 8710705408940114652
+    second: pingui_120
+  - first:
+      213: -9057212270233272319
+    second: pingui_121
+  - first:
+      213: 8712488929543783007
+    second: pingui_122
+  - first:
+      213: -2667695772371664694
+    second: pingui_123
+  - first:
+      213: 1353853384867363724
+    second: pingui_124
+  - first:
+      213: 4656387272496372526
+    second: pingui_125
+  - first:
+      213: 9086370175359794308
+    second: pingui_126
+  - first:
+      213: -4630836399516018255
+    second: pingui_127
+  - first:
+      213: -8793484941001195238
+    second: pingui_128
+  - first:
+      213: -4453417549388173902
+    second: pingui_129
+  - first:
+      213: 5599851226235041005
+    second: pingui_130
+  - first:
+      213: 1067441429721511239
+    second: pingui_131
+  - first:
+      213: -4176072956876175787
+    second: pingui_132
+  - first:
+      213: 3163897595241225116
+    second: pingui_133
+  - first:
+      213: -773905638746908681
+    second: pingui_134
+  - first:
+      213: -5470183946833727912
+    second: pingui_135
+  - first:
+      213: -9157990341849173881
+    second: pingui_136
+  - first:
+      213: 6180223440074958521
+    second: pingui_137
+  - first:
+      213: 8385648188320348545
+    second: pingui_138
+  - first:
+      213: -898402535198873207
+    second: pingui_139
+  - first:
+      213: 8975534478005294526
+    second: pingui_140
+  - first:
+      213: 26191218235850107
+    second: pingui_141
+  - first:
+      213: -6856457032413906678
+    second: pingui_142
+  - first:
+      213: 8087181390333497082
+    second: pingui_143
+  - first:
+      213: 7314076709447299095
+    second: pingui_144
+  - first:
+      213: 3640078705852236012
+    second: pingui_145
+  - first:
+      213: 1813120098602643083
+    second: pingui_146
+  - first:
+      213: 2532509555437668770
+    second: pingui_147
+  - first:
+      213: 1235294289429460802
+    second: pingui_148
+  - first:
+      213: -7443009078169549258
+    second: pingui_149
+  - first:
+      213: 5769285230948738480
+    second: pingui_150
+  - first:
+      213: -1262662529604391428
+    second: pingui_151
+  - first:
+      213: 3349962308361029402
+    second: pingui_152
+  - first:
+      213: -2009151635913124304
+    second: pingui_153
+  - first:
+      213: 892851136600441606
+    second: pingui_154
+  - first:
+      213: -1646874975519427060
+    second: pingui_155
+  - first:
+      213: 9137784713391338624
+    second: pingui_156
+  - first:
+      213: -1252097532572915432
+    second: pingui_157
+  - first:
+      213: -7069646060256810910
+    second: pingui_158
+  - first:
+      213: -1009530350387413406
+    second: pingui_159
+  - first:
+      213: 567755018991085172
+    second: pingui_160
+  - first:
+      213: 6454593941246941854
+    second: pingui_161
+  - first:
+      213: -9215305253043630916
+    second: pingui_162
+  - first:
+      213: 8239000842933577755
+    second: pingui_163
+  - first:
+      213: 1872955840941151355
+    second: pingui_164
+  - first:
+      213: -5184587968315172884
+    second: pingui_165
+  - first:
+      213: -2281054114486858201
+    second: pingui_166
+  - first:
+      213: 3390534785687163143
+    second: pingui_167
+  - first:
+      213: -9071783619392531036
+    second: pingui_168
+  - first:
+      213: -1132116123776398134
+    second: pingui_169
+  - first:
+      213: 8072281223773213951
+    second: pingui_170
+  - first:
+      213: 8482412100192552732
+    second: pingui_171
+  - first:
+      213: -7727182356508443011
+    second: pingui_172
+  - first:
+      213: 1839707496560742316
+    second: pingui_173
+  - first:
+      213: 7165873509905319097
+    second: pingui_174
+  - first:
+      213: 4553860203394044014
+    second: pingui_175
+  - first:
+      213: 7571684487027555164
+    second: pingui_176
+  - first:
+      213: 2787527240290397840
+    second: pingui_177
+  - first:
+      213: 3961887304049031082
+    second: pingui_178
+  - first:
+      213: -767372735916237725
+    second: pingui_179
+  - first:
+      213: 5350901457807775502
+    second: pingui_180
+  - first:
+      213: -3546559439664214779
+    second: pingui_181
+  - first:
+      213: -1541657277750303017
+    second: pingui_182
+  - first:
+      213: -4808318714479117509
+    second: pingui_183
+  - first:
+      213: -6881152642058340784
+    second: pingui_184
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pingui_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 7296
+        width: 172
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d7d55d61367c46b6f05f2c45e8217
+      internalID: -5512718406912222677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 7296
+        width: 178
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e865a4d3cfa228544afe8812f753c037
+      internalID: -265007872102312492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_2
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 7296
+        width: 184
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fc15aabe1e2094cb37aa04d2bd25ca
+      internalID: 2155391558971310495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_3
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 7296
+        width: 192
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56570acd4c440f04a8f45a463339fe44
+      internalID: -5130779071179875198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_4
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 7296
+        width: 195
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aff09d1d9d6ec4e97f51c0a709bb59
+      internalID: 3521529939143722208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_5
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 7299
+        width: 203
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d58d2a5f90e4843823df2a22e1ab1f
+      internalID: 4885160070935827350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_6
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 7299
+        width: 213
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5993bb0aec2359241bb900481426d138
+      internalID: -8718236511737349249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_7
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 7299
+        width: 221
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2376dd1361710479a681affb797684
+      internalID: -6364455628253001402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_8
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 7299
+        width: 229
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b41873149d244dbfa9a1988e558c8
+      internalID: 7168605865241003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_9
+      rect:
+        serializedVersion: 2
+        x: 4768
+        y: 7299
+        width: 239
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c5b61e53f7d2241a809f5bf70d642a
+      internalID: -6397394483262051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_10
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 7297
+        width: 247
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1bdb84b26303547b429c5ea0ec4879
+      internalID: -3610043012729589156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_11
+      rect:
+        serializedVersion: 2
+        x: 5786
+        y: 7296
+        width: 257
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1712fab78647f4eaffb6c40d205b01
+      internalID: 5968850772953706296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_12
+      rect:
+        serializedVersion: 2
+        x: 6294
+        y: 7296
+        width: 266
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786164c85b17e844a655a6ef41a2dde
+      internalID: -5472728135253139598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 6786
+        width: 255
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b61cf07fd38849b51955b9c29bdea
+      internalID: -7665309620218765673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 6786
+        width: 248
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f65be91cf2fb4dad4eaa85071b3ff
+      internalID: 6416947319235468641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_15
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 6786
+        width: 240
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f69e334b55439448b6824e240c2c79
+      internalID: -1803926144901439905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_16
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 6789
+        width: 232
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e276e91094544daf4f1834b2e5a5a
+      internalID: -2762838742297185801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_17
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 6786
+        width: 218
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea3f40825cb59945b4a964af6c805ac
+      internalID: 3298751408760800564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_18
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 6786
+        width: 210
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322fcaf9abf32fb45a5bdccd054f25b3
+      internalID: -3526612553913766484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_19
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 6786
+        width: 206
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5fbfe8a0b83543a781b244c9f18e6
+      internalID: 1010190941450310117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_20
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 6786
+        width: 198
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064e5afca836f264599cf638c4cae78e
+      internalID: -3732338866629858160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_21
+      rect:
+        serializedVersion: 2
+        x: 4264
+        y: 6786
+        width: 193
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd58f07c1e6cda4bb87aedf054435f4
+      internalID: 2467233377194325575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_22
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 6786
+        width: 186
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e134625678c1c9b4fb1f3a6c53c50559
+      internalID: 5404345855513793132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_23
+      rect:
+        serializedVersion: 2
+        x: 5289
+        y: 6782
+        width: 176
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efde4b6b224f79469eac24889ae9c8b
+      internalID: -382115661634608795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_24
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 6786
+        width: 199
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd26cde3ebb9d4a97b7f965224c1c1
+      internalID: -2084526714178770433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_25
+      rect:
+        serializedVersion: 2
+        x: 6317
+        y: 6793
+        width: 198
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac0b58dcb7e4fa47b57807cb8fb00b9
+      internalID: 2694528604611354057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 6287
+        width: 201
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5d6ef1ee2b9145985fb4d7b7d6558
+      internalID: 8018061613438295829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_27
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 6291
+        width: 202
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574030e62004a6e4d9db138fd3b9382d
+      internalID: -1658810149996713109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_28
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 6298
+        width: 199
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd3cdf518ffc644585f35338a2727bd
+      internalID: 3537530851930549223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_29
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 6302
+        width: 206
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cb477761908be44bdaf083edec0625
+      internalID: -2590827121146492335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_30
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 6306
+        width: 232
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0738c85904d544a4e9258b08b40781d4
+      internalID: -3077131831999909318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_31
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 6313
+        width: 214
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3862a3898df32b4d8897e8723f643a1
+      internalID: -4130202700510724862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_32
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 6314
+        width: 206
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0d4fb62a0882544ae9953556061406
+      internalID: -2286731032760781964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_33
+      rect:
+        serializedVersion: 2
+        x: 3805
+        y: 6313
+        width: 198
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078554abd6fc9fe458f2d930e8bc4944
+      internalID: -9202466642767447729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_34
+      rect:
+        serializedVersion: 2
+        x: 4325
+        y: 6306
+        width: 195
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ca97378314354ca21ce76ce6d8af3
+      internalID: 2479247880031460395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_35
+      rect:
+        serializedVersion: 2
+        x: 4839
+        y: 6294
+        width: 203
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1f7a250e4b491489a0459b135d7f06
+      internalID: -3435082826708298464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_36
+      rect:
+        serializedVersion: 2
+        x: 5353
+        y: 6279
+        width: 210
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5b651af7248a4493121a8cfc16bac
+      internalID: -638044044139325275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_37
+      rect:
+        serializedVersion: 2
+        x: 5863
+        y: 6264
+        width: 214
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468f926bac25b3e478ee8358c76b8067
+      internalID: 2134881765317866465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_38
+      rect:
+        serializedVersion: 2
+        x: 6377
+        y: 6249
+        width: 213
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fad7c64f17a8d46b0b3f1f8cff2aaf
+      internalID: -2144232395099727855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5728
+        width: 215
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a41f1d261890441a07a3bb02b552b4
+      internalID: 5855051860878223398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_40
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 5732
+        width: 210
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c11bb737118d864daf3a4fb1a54d7c7
+      internalID: 4812924505927439340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_41
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 5739
+        width: 206
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56492f6a181d6249a04d56a2cf36872
+      internalID: 2230854335525422202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_42
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 5766
+        width: 207
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35032fb785fe4a44a0171503896246a
+      internalID: 7066793387240813661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_43
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 5766
+        width: 206
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b3d2800dfb2c445998e42060bdc7a3
+      internalID: 7276366875204232230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_44
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 5766
+        width: 210
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bbf791a9076084f9dfb106925a4759
+      internalID: 927239781259194657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_45
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 5766
+        width: 217
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7268b08d352f354d8dbdf2a94d4c7ba
+      internalID: -2031086505719609893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_46
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 5763
+        width: 221
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1274e9501d8b21a4ca057e3a0338e65e
+      internalID: -2333319120672832469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_47
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 5762
+        width: 229
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233612157edd8f043b4d0e1e4f3d3c97
+      internalID: 8679717841629601393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_48
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 5762
+        width: 239
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db5b09a8795aa54a9c129003b2ab2a2
+      internalID: -2836555730272755887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_49
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 5764
+        width: 243
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482ce98a2d6f28459e70c71e5b34f48
+      internalID: -590587857292679710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_50
+      rect:
+        serializedVersion: 2
+        x: 5730
+        y: 5766
+        width: 249
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9535a878aee563b42bd6dd5cb3651527
+      internalID: -7032234347400807828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_51
+      rect:
+        serializedVersion: 2
+        x: 6242
+        y: 5766
+        width: 251
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ab1b72f3eedc40b06cb2d81ea757b
+      internalID: 5471755068914236546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_52
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5252
+        width: 259
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a907160df2ed2743a353fe53c7ed0cd
+      internalID: 7149266044801118362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_53
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 5252
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed766ab70e4e845b088483c366d5e2
+      internalID: -5364757761698886662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_54
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 5252
+        width: 266
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27544627242eb7a4caaf46c2aaee7066
+      internalID: 1068211909521363188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_55
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 5252
+        width: 258
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87831f2e14ef0a47bfb319c8e73bf89
+      internalID: 212577554567242767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_56
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 5252
+        width: 236
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45902dcf20ee3154ab8949da62f723a3
+      internalID: 1423081090276630078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_57
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 5252
+        width: 217
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71accc070021164299610cbc57d6b21
+      internalID: -3853348747429245016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_58
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 5252
+        width: 198
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb40d79c716eeb4fb6140e45c8af5f0
+      internalID: 2857611357187874642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_59
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 5252
+        width: 203
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b078fe2b864abae4f80eb4e0c5d19387
+      internalID: -7174597872104245446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_60
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 5252
+        width: 244
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1e702fcb8c0294d8e463bf04f9df0b
+      internalID: 1436639335806384700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_61
+      rect:
+        serializedVersion: 2
+        x: 4783
+        y: 5256
+        width: 229
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8d42f679c4b04c89d1da4804333d9
+      internalID: -1860010223167160543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_62
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 5256
+        width: 206
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cefd566cda8554d9ff68281b50f29c
+      internalID: -5347383026040708629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_63
+      rect:
+        serializedVersion: 2
+        x: 5807
+        y: 5256
+        width: 198
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46768826107abf74fb13d1bec376f15a
+      internalID: -8511031039048603180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_64
+      rect:
+        serializedVersion: 2
+        x: 6317
+        y: 5256
+        width: 198
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123517ad743c5f3458ceb4e1929f14b4
+      internalID: -8436257070494785720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_65
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4742
+        width: 195
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294fb26dce993a741868fc6ae9bfe470
+      internalID: 3071493956195179219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_66
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 4742
+        width: 206
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4c5b0e173f0284eb55df7e9beddd87
+      internalID: -8651590589080840218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_67
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 4742
+        width: 209
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af56cad3def63b54bb5d7157eaab51fb
+      internalID: 8874065149426075064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_68
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 4742
+        width: 207
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c88e1ace662cf4f8a051ee09284119
+      internalID: 827652166288786411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_69
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 4742
+        width: 209
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3241eba335630d44b31c3b349c42962
+      internalID: 7791848002193301604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_70
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 4742
+        width: 210
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d437b686a9de544995b775fede018ba
+      internalID: -8835019478599684201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_71
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 4742
+        width: 211
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159b5a35b7a6ea14ba4f04c695deebfa
+      internalID: 228514006009282385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_72
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 4742
+        width: 210
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ec59b199ce55499972df7513e4faf
+      internalID: -7629962413759810623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_73
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 4742
+        width: 210
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e35f7b1ef3d3fd4bad0169222ec42ef
+      internalID: -2989965158432104602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_74
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 4742
+        width: 210
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc317499b1cc32e45b889073c534c9c0
+      internalID: 3468407928923115023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_75
+      rect:
+        serializedVersion: 2
+        x: 5288
+        y: 4742
+        width: 204
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136f8059c6bf5e74a9a5d98a18c7b86c
+      internalID: 5743264901213986915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_76
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 4742
+        width: 203
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de820d6ada5098148a68b7372f100af5
+      internalID: 5633417862845694371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_77
+      rect:
+        serializedVersion: 2
+        x: 6313
+        y: 4742
+        width: 195
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10de06c81659848b945a8277ade835
+      internalID: -1890341041273131166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_78
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4228
+        width: 195
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0d140baaa49b14ea6b614f13559f1b
+      internalID: -3506465945827220879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_79
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 4228
+        width: 191
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1189e5abbec74b9624527c5c0f17b
+      internalID: -7578462856074262505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_80
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 4228
+        width: 195
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8692d474e4c96474a8f1e1880cd216a5
+      internalID: -2202166621186267995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_81
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 4228
+        width: 192
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af354149a33c7c4aa5b913b4005ac20
+      internalID: -2217964104294462682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_82
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 4228
+        width: 191
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42405b1a756eb084fbdf2a3ad3ed5ecc
+      internalID: 6560049013234868460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_83
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 4228
+        width: 184
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23abc06f5d674a143b87e5cb9d5ddce1
+      internalID: -8036390370646185693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_84
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 4228
+        width: 180
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5947b264c91944945955cd5933e12e01
+      internalID: 29547780144307705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_85
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 4228
+        width: 180
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70bc63f9278e7c4e8644f558d9e8d04
+      internalID: 4884486623981403146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_86
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 4228
+        width: 176
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d70b366264749f498a1d43b91883afb
+      internalID: 54311449672802085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_87
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 4228
+        width: 195
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bf1437a229a73499be0e18b3fac61b
+      internalID: -6490626707690884419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_88
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 4228
+        width: 206
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3cb3ec097d2eb4aa4dffac5a69fd76
+      internalID: 9040635362661414652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_89
+      rect:
+        serializedVersion: 2
+        x: 5777
+        y: 4229
+        width: 221
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bb556a8d4e77242a115f738f76fc07
+      internalID: -163077973275522266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_90
+      rect:
+        serializedVersion: 2
+        x: 6275
+        y: 4232
+        width: 237
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d767d8d15cc748abe9629f8beff02
+      internalID: 1513884804456041889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_91
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 3718
+        width: 251
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59b332e749f98941bee89ca574e83ca
+      internalID: 2258277952025046665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_92
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 3718
+        width: 236
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c664f57f69dbd0d4580410ff5029b991
+      internalID: 2404387643262955619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_93
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 3718
+        width: 229
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a05e781404fc43a159ec5b2a390ce
+      internalID: -4608729206615469677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_94
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 3718
+        width: 218
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8000246d2e503604c9a038cae605a4bc
+      internalID: 2146507625129753036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_95
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 3719
+        width: 221
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60250ca60bb1a2c49ac5a087fb8da9f4
+      internalID: 5086758424427562439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_96
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 3718
+        width: 217
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2831e9208476bf54abe8f432785935df
+      internalID: 3637946102673837878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_97
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 3718
+        width: 219
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01482bf3ca4969a40be7b1bf01bfa9de
+      internalID: -7987089882102281787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_98
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 3718
+        width: 194
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c737e24bf4f3dd4e87aa904fb20169c
+      internalID: 5165975139535253992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_99
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 3714
+        width: 213
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046556f8204db7f4591a1c0ea87b0d09
+      internalID: -8114328336099387460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_100
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 3714
+        width: 232
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8adb05a180a3dd4ca5d704e7ed3c86e
+      internalID: 3652989062431234294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_101
+      rect:
+        serializedVersion: 2
+        x: 5282
+        y: 3714
+        width: 251
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8de297fe6ad8cd4b8b5b13851377502
+      internalID: -1617880343697081834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_102
+      rect:
+        serializedVersion: 2
+        x: 5792
+        y: 3714
+        width: 240
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b78ab76f55b7e4a8b889be443e4d40
+      internalID: 7848715443148708286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_103
+      rect:
+        serializedVersion: 2
+        x: 6302
+        y: 3714
+        width: 228
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea5553f67f3a74b917d7ce8d883c42
+      internalID: -436876023607327159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_104
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3201
+        width: 217
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81845d1d264ceb4a95dac0c4c8a4e57
+      internalID: -5406001373496567218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_105
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 3204
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1bd0b572451a148840e02bd9e4f545
+      internalID: -889036392280923450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_106
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 3204
+        width: 244
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c016db332b5caf042834031de05afd8f
+      internalID: 7018415684642899291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_107
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 3204
+        width: 255
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7902cd9fb70f6d34eb65ee3966e2813b
+      internalID: 3841251199172863998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_108
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 3193
+        width: 284
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b47cb7c7a86e294a98922d89c870685
+      internalID: 8279152255312557032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_109
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 3186
+        width: 314
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a9ad08097f10488067b183fd46fe4
+      internalID: -8506622683901241742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_110
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 3178
+        width: 341
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d10fb145afd054ab9f4dd54fd77b3c
+      internalID: 6382529509184065164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_111
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 3182
+        width: 338
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664c36641cd6ec47b00055f3e57905e
+      internalID: -4488404608923757389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_112
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 3178
+        width: 329
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b503be913c838ba4fb5d6fa23092dcd2
+      internalID: 1928253472420196367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_113
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 3174
+        width: 330
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd88693d3ab923408c9f12204344127
+      internalID: 909593965530273583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_114
+      rect:
+        serializedVersion: 2
+        x: 5203
+        y: 3174
+        width: 326
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e8ce7b16919f49ae9673aa690a9b7
+      internalID: 5895575204490153013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_115
+      rect:
+        serializedVersion: 2
+        x: 5713
+        y: 3174
+        width: 330
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e60d5ea879c89f438e97de556260072
+      internalID: -6277771087759843198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_116
+      rect:
+        serializedVersion: 2
+        x: 6313
+        y: 3204
+        width: 191
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401726e76905f944795f9cbd497be410
+      internalID: 6309915936442168940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_117
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2694
+        width: 195
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da07b5baa3d56144c8fe1ee560a52938
+      internalID: 4839602713544844611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_118
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2694
+        width: 195
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116694449ee70054abb05efab26daa4f
+      internalID: -7404577286834516733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_119
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 2694
+        width: 198
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7eba73584a1ac4385922a66c5114ec
+      internalID: 7371681768904486692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_120
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 2694
+        width: 201
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65651357a8aa1ba488a5cc0c29fb7d69
+      internalID: 8710705408940114652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_121
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 2694
+        width: 202
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522d04a65341084b810aa378ca4dbfe
+      internalID: -9057212270233272319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_122
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 2694
+        width: 203
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba9bb3b769703f45a876908fae0a076
+      internalID: 8712488929543783007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_123
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 2694
+        width: 206
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad5b193f2955714893a45334b3becae
+      internalID: -2667695772371664694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_124
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2694
+        width: 210
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a212a810e0314a843a6d93d1ea45f310
+      internalID: 1353853384867363724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_125
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 2694
+        width: 214
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380f7a56aa3e9134294f0df5f3babf63
+      internalID: 4656387272496372526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_126
+      rect:
+        serializedVersion: 2
+        x: 4766
+        y: 2694
+        width: 212
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aac09a652fb6ac4688a1dd5f137bd82
+      internalID: 9086370175359794308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_127
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 2694
+        width: 214
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86adf82052893224492c9b1f1250f996
+      internalID: -4630836399516018255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_128
+      rect:
+        serializedVersion: 2
+        x: 5788
+        y: 2694
+        width: 217
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5718a5485a0182441a7a50c654c316aa
+      internalID: -8793484941001195238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_129
+      rect:
+        serializedVersion: 2
+        x: 6302
+        y: 2694
+        width: 213
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dfa39c1d8885949afc954580c3ddde
+      internalID: -4453417549388173902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2181
+        width: 209
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915f866a9fe7d6a459ef93a7e5dce917
+      internalID: 5599851226235041005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_131
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2181
+        width: 210
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc913a24a13c0548aa4279b458b24df
+      internalID: 1067441429721511239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_132
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2181
+        width: 205
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc56efd5101414fbdf69b6f5c25a1a
+      internalID: -4176072956876175787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_133
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2181
+        width: 199
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1127f73a89b2340b4af9951c3473fa
+      internalID: 3163897595241225116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_134
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2181
+        width: 198
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb45ffd25b3a594bb22461290b341f8
+      internalID: -773905638746908681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_135
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2181
+        width: 195
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901bdf5179c555b4e91d26b0c9242ce8
+      internalID: -5470183946833727912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_136
+      rect:
+        serializedVersion: 2
+        x: 3242
+        y: 2181
+        width: 194
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdb1e743e99d4b4d97ba44a8f480713
+      internalID: -9157990341849173881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_137
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 2181
+        width: 195
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0224c84150ba2b4eaa87b463386efaa
+      internalID: 6180223440074958521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_138
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 2181
+        width: 192
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a73116ba615e74786a94d7f35bbeb9
+      internalID: 8385648188320348545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_139
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 2181
+        width: 191
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320a41fbe1d1f904fae7f3b4847b2642
+      internalID: -898402535198873207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_140
+      rect:
+        serializedVersion: 2
+        x: 5286
+        y: 2181
+        width: 194
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98993fae2f7d3f3429a456cc1fb93e55
+      internalID: 8975534478005294526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_141
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 2181
+        width: 199
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459d2c3e9f5deb346a13b3ca087b2288
+      internalID: 26191218235850107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_142
+      rect:
+        serializedVersion: 2
+        x: 6313
+        y: 2181
+        width: 201
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc95cf077e2a324bbb35cb029727399
+      internalID: -6856457032413906678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_143
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1667
+        width: 206
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaf8f0fe8b9f3c428c91f10c9071166
+      internalID: 8087181390333497082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_144
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1667
+        width: 214
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae953d790b822754a926fe5c1d20b458
+      internalID: 7314076709447299095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_145
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1667
+        width: 219
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd55196092c4478498d6a63ec317b274
+      internalID: 3640078705852236012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_146
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1667
+        width: 221
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1232aef2d5e2241b60beb26f71e639
+      internalID: 1813120098602643083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_147
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 1667
+        width: 228
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441372591aa3bb34c9d93f72222045a6
+      internalID: 2532509555437668770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_148
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 1664
+        width: 240
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7253cc8fea7c2d4992bdffea10e792d
+      internalID: 1235294289429460802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_149
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 1663
+        width: 243
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934ff4e1ce1a67d428c23387efb594d5
+      internalID: -7443009078169549258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_150
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 1663
+        width: 251
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45efd6610b9a7646be36b0465e4be13
+      internalID: 5769285230948738480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_151
+      rect:
+        serializedVersion: 2
+        x: 4243
+        y: 1663
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902b33ff550fc284c8a88d4b006c2643
+      internalID: -1262662529604391428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_152
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 1660
+        width: 270
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f95e64ef74e894a922ca6952107740
+      internalID: 3349962308361029402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_153
+      rect:
+        serializedVersion: 2
+        x: 5267
+        y: 1660
+        width: 266
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee18ebf42aac41e49923c314bb129d60
+      internalID: -2009151635913124304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_154
+      rect:
+        serializedVersion: 2
+        x: 5777
+        y: 1660
+        width: 266
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47111a6cf62e3be479659169bc7ebe94
+      internalID: 892851136600441606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_155
+      rect:
+        serializedVersion: 2
+        x: 6291
+        y: 1660
+        width: 266
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726afceb0f3e8f0418ed7febba8359a7
+      internalID: -1646874975519427060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_156
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1149
+        width: 262
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5147423f8496964ba0ea24c02f4818d
+      internalID: 9137784713391338624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_157
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1149
+        width: 258
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3c4169302c1284595378c24187cf63
+      internalID: -1252097532572915432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_158
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1149
+        width: 256
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b155662f18c52c647abbfa91fa1065b5
+      internalID: -7069646060256810910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_159
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1149
+        width: 251
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dda8104a4ec3342bb476714d184fda
+      internalID: -1009530350387413406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_160
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1149
+        width: 247
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5add6ec3b72a975439991194d9eec895
+      internalID: 567755018991085172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_161
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 1149
+        width: 246
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d34ec32c916d44b032508dae0db2c
+      internalID: 6454593941246941854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_162
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 1149
+        width: 244
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c95c4bfd119374ca5635b2467e184e
+      internalID: -9215305253043630916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_163
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 1149
+        width: 240
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdd3bd80b60f8947b735e765de6906f
+      internalID: 8239000842933577755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_164
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 1157
+        width: 184
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fab824a8e45304ca88c8f7ab40cf82
+      internalID: 1872955840941151355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_165
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 1157
+        width: 182
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b48f03853fa494ba6bd4b390691d78
+      internalID: -5184587968315172884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_166
+      rect:
+        serializedVersion: 2
+        x: 5289
+        y: 1157
+        width: 184
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c04ab4c02891ac46bc6886cf0d38998
+      internalID: -2281054114486858201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_167
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 1157
+        width: 180
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1041ff72a96f0f04eae5559b3ef81977
+      internalID: 3390534785687163143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_168
+      rect:
+        serializedVersion: 2
+        x: 6317
+        y: 1157
+        width: 176
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223fafd5fb0cbf1408df5e3b8efa180a
+      internalID: -9071783619392531036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_169
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 647
+        width: 177
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b57cb568bbc5e41a76e77296c97177
+      internalID: -1132116123776398134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_170
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 647
+        width: 199
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984cb6f12a7890142b4591ef5c0fdad6
+      internalID: 8072281223773213951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_171
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 647
+        width: 203
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd415cb86b3cb48bedce10a609016a
+      internalID: 8482412100192552732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_172
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 647
+        width: 214
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd2d16b33b80447a9b5e03f94c04cd
+      internalID: -7727182356508443011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_173
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 647
+        width: 220
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38f3de5ad06e449be96a68ece94150
+      internalID: 1839707496560742316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_174
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 647
+        width: 228
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928aca2f546863429c5bfc38f228441
+      internalID: 7165873509905319097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_175
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 647
+        width: 236
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1473578922ac86745a2092b89763dd95
+      internalID: 4553860203394044014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_176
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 647
+        width: 243
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6935aef3f9ef674aa326610b0759ab8
+      internalID: 7571684487027555164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_177
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 647
+        width: 229
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bfa08e09ae14b479711a385f5f8350
+      internalID: 2787527240290397840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_178
+      rect:
+        serializedVersion: 2
+        x: 4779
+        y: 647
+        width: 214
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7be6ba0c477334e9857519c6276c4b
+      internalID: 3961887304049031082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_179
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 647
+        width: 199
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c994f24f89a2b4eb94261ce808ed9b
+      internalID: -767372735916237725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_180
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 647
+        width: 187
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9557ffb98696924488d32102fedc2d5
+      internalID: 5350901457807775502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_181
+      rect:
+        serializedVersion: 2
+        x: 6317
+        y: 647
+        width: 187
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5cd6cb6bc3af2448728be6b8413d41
+      internalID: -3546559439664214779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_182
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 133
+        width: 187
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435c9470c3ead14dac4aa40204b2199
+      internalID: -1541657277750303017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_183
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 133
+        width: 189
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279a33b612d3a6649a2e6c7798172257
+      internalID: -4808318714479117509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingui_184
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 133
+        width: 189
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ca149009429e4e99cffcf657fbd9a
+      internalID: -6881152642058340784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
