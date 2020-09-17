@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fondoloop : MonoBehaviour
+public class Fondo_loop : MonoBehaviour
 {
     public float speed;
 

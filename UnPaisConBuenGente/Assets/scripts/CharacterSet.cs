@@ -8,21 +8,21 @@ public class CharacterSet : MonoBehaviour
     public float speed, horizontal, jumpForce, maxJump, avJump;
     public Vector3 face;
     public bool onAir;
-<<<<<<< HEAD
+
     public DestroyableComp destroyable;
     public Animator Anim_Pinguin;
     public SpriteRenderer MainSprite;
+    public Transform Head;
 
     void Start()
     {
         MainSprite = this.GetComponent<SpriteRenderer>();
+        Head = this.GetComponent<Transform>();
         Anim_Pinguin = this.GetComponent<Animator>();
         destroyable = this.GetComponent<DestroyableComp>();
-=======
 
-    void Start()
-    {
->>>>>>> main
+
+  
         rb = this.GetComponent<Rigidbody2D>();
         face = this.transform.right;
     }
@@ -32,12 +32,14 @@ public class CharacterSet : MonoBehaviour
         if (horizontal < 0)
         {
             MainSprite.flipX = true;
+            
         }
         else if (horizontal > 0)
         {
             MainSprite.flipX = false;
+            
         }
-<<<<<<< HEAD
+
 
         if (destroyable.life <= 0)
         {
@@ -48,8 +50,7 @@ public class CharacterSet : MonoBehaviour
 
         Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
         Anim_Pinguin.SetFloat("jump", rb.velocity.y);
-=======
->>>>>>> main
+
     }
 
     public void Die()
