@@ -4,25 +4,27 @@ using System.Collections.Generic;
 
 
 public class ExplosionForce : MonoBehaviour {
-	public float force = 50;
-	public float radius = 5;
-	public float upliftModifer = 5;
+	public float force = 2000;
+	public float radius = 100;
+	public float upliftModifer = 500;
 	
     /// <summary>
     /// create an explosion force
     /// </summary>
     /// <param name="position">location of the explosion</param>
 	public void doExplosion(Vector3 position){
-		transform.localPosition = position;
-		StartCoroutine(waitAndExplode());
-	}
+
+        //transform.localPosition = position;
+
+        StartCoroutine(waitAndExplode());
+
+    }
 
     /// <summary>
     /// exerts an explosion force on all rigidbodies within the given radius
     /// </summary>
     /// <returns></returns>
 	private IEnumerator waitAndExplode(){
-		yield return new WaitForFixedUpdate();
 		
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position,radius);
      
@@ -31,6 +33,7 @@ public class ExplosionForce : MonoBehaviour {
                 AddExplosionForce(coll.GetComponent<Rigidbody2D>(), force, transform.position, radius, upliftModifer);
 			}
 		}
+        yield return null;
 	}
 
     /// <summary>
@@ -43,9 +46,9 @@ public class ExplosionForce : MonoBehaviour {
     /// <param name="upliftModifier">factor of additional upward force</param>
     private void AddExplosionForce(Rigidbody2D body, float explosionForce, Vector3 explosionPosition, float explosionRadius, float upliftModifier = 0)
 	{
-		var dir = (body.transform.position - explosionPosition);	
-		float wearoff = 1 - (dir.magnitude / explosionRadius);
-        Vector3 baseForce = dir.normalized * explosionForce * wearoff;
+        var dir = (body.transform.position);	
+        //float wearoff = 1 - (dir.magnitude / explosionRadius);
+        Vector3 baseForce = dir.normalized * explosionForce;// * wearoff;
         baseForce.z = 0;
 		body.AddForce(baseForce);
 

@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - ExplosionFX
+  - ground
+  - Obstacle
+  - Bullet
+  - Explosion
+  - HealthBar
+  - floor
+  - BombPickup
   layers:
   - Default
   - TransparentFX
@@ -13,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Terreno
+  - TerrenoDestruido
+  - Explotion
   - 
   - 
   - 

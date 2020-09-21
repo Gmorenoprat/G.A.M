@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: 189c83f4a5661bd4380a38913880dc94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703571397326436950
+    second: rompibleSeparado_0
+  - first:
+      213: 4241423245051745418
+    second: rompibleSeparado_1
+  - first:
+      213: 5816630016954279633
+    second: rompibleSeparado_2
+  - first:
+      213: 1222430633355678117
+    second: rompibleSeparado_3
+  - first:
+      213: -6524468266634020621
+    second: rompibleSeparado_4
+  - first:
+      213: -3042550180870834421
+    second: rompibleSeparado_5
+  - first:
+      213: 5720039509262560511
+    second: rompibleSeparado_6
+  - first:
+      213: -732894623855988157
+    second: rompibleSeparado_7
+  - first:
+      213: 8207761189962808519
+    second: rompibleSeparado_8
+  - first:
+      213: -792202183926395106
+    second: rompibleSeparado_9
+  - first:
+      213: -1599577861092037145
+    second: rompibleSeparado_10
+  - first:
+      213: -6414794383642016194
+    second: rompibleSeparado_11
+  - first:
+      213: -1242043493386165689
+    second: rompibleSeparado_12
+  - first:
+      213: 4455115817111745873
+    second: rompibleSeparado_13
+  - first:
+      213: -8339583828945168205
+    second: rompibleSeparado_14
+  - first:
+      213: 1310067314960620523
+    second: rompibleSeparado_15
+  - first:
+      213: -2614604091089019207
+    second: rompibleSeparado_16
+  - first:
+      213: -2643315662052828610
+    second: rompibleSeparado_17
+  - first:
+      213: -675127385887680561
+    second: rompibleSeparado_18
+  - first:
+      213: 7358454992862636680
+    second: rompibleSeparado_19
+  - first:
+      213: 6049356122283734882
+    second: rompibleSeparado_20
+  - first:
+      213: -541103059354582527
+    second: rompibleSeparado_21
+  - first:
+      213: 4861407868646823528
+    second: rompibleSeparado_22
+  - first:
+      213: -5356582310144874974
+    second: rompibleSeparado_23
+  - first:
+      213: 8117737449293565671
+    second: rompibleSeparado_24
+  - first:
+      213: -4957124140516651486
+    second: rompibleSeparado_25
+  - first:
+      213: -6103091303836949888
+    second: rompibleSeparado_26
+  - first:
+      213: -2123462269714905090
+    second: rompibleSeparado_27
+  - first:
+      213: 4032637243010575897
+    second: rompibleSeparado_28
+  - first:
+      213: -7274800149962389070
+    second: rompibleSeparado_29
+  - first:
+      213: -1634581047534173373
+    second: rompibleSeparado_30
+  - first:
+      213: -1443782428855348071
+    second: rompibleSeparado_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rompibleSeparado_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3177
+        width: 1086
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1203a30612c46438d0507ad3e449dd
+      internalID: 8703571397326436950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_1
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 3382
+        width: 1133
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bceb2a8ab7c6a74b9ca7722acedf528
+      internalID: 4241423245051745418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_2
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3367
+        width: 975
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8e78eeeaa21f048949d3cea35d0523
+      internalID: 5816630016954279633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_3
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3282
+        width: 638
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8df8ea5647fa4e9fb39e8dce37254
+      internalID: 1222430633355678117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_4
+      rect:
+        serializedVersion: 2
+        x: 5387
+        y: 3072
+        width: 1044
+        height: 837
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1484d56193ffa0143ad3f47aa7d5c907
+      internalID: -6524468266634020621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_5
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 3240
+        width: 786
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cdc233b1d356544be9e1853803248a
+      internalID: -3042550180870834421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_6
+      rect:
+        serializedVersion: 2
+        x: 8234
+        y: 3179
+        width: 1166
+        height: 673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecab23f547830064ca42738299e455dc
+      internalID: 5720039509262560511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_7
+      rect:
+        serializedVersion: 2
+        x: 9679
+        y: 3003
+        width: 1002
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e519f16fbc15ce044bb07911e11a7210
+      internalID: -732894623855988157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1996
+        width: 970
+        height: 991
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1833f6fd993eeba4b91c20d1595b18d8
+      internalID: 8207761189962808519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_9
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2168
+        width: 1166
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e87cc519b09c41b551e3c71c961d8
+      internalID: -792202183926395106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_10
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 2555
+        width: 1039
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167f9c3f54a68f848b7dffb117b597ed
+      internalID: -1599577861092037145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_11
+      rect:
+        serializedVersion: 2
+        x: 4506
+        y: 2460
+        width: 686
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851379d6be2b4954ab28fa7e4fe998aa
+      internalID: -6414794383642016194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_12
+      rect:
+        serializedVersion: 2
+        x: 6737
+        y: 2302
+        width: 1107
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491e29741ffb7404bb21ff3719907f9a
+      internalID: -1242043493386165689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_13
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 2170
+        width: 907
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48231313f1c401a409915274e951233a
+      internalID: 4455115817111745873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_14
+      rect:
+        serializedVersion: 2
+        x: 9414
+        y: 2222
+        width: 1255
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95055d9b085fcf46bbcc97d9a71af3e
+      internalID: -8339583828945168205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_15
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1834
+        width: 1192
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de4f7bbe34a234f9859d401cbb6072
+      internalID: 1310067314960620523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_16
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 1252
+        width: 1493
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d2f6841eda81d4a81a613445c88d04
+      internalID: -2614604091089019207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_17
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1463
+        width: 1529
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2c06f9760dc6f4484187758aecb167
+      internalID: -2643315662052828610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_18
+      rect:
+        serializedVersion: 2
+        x: 9469
+        y: 1110
+        width: 1228
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c6f254c62f675419ef6e4b6dac4cf8
+      internalID: -675127385887680561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1226
+        width: 1071
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50f1bd7e850407438b67fd390d3509a
+      internalID: 7358454992862636680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_20
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1284
+        width: 1054
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aae003b5141a4439796f16c3d85fa1
+      internalID: 6049356122283734882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_21
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 1026
+        width: 1523
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e64f006e517f5140ab8f6480ae0b2bc
+      internalID: -541103059354582527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_22
+      rect:
+        serializedVersion: 2
+        x: 8045
+        y: 968
+        width: 1181
+        height: 606
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bdc7e77d081b24ea4817da5868e553
+      internalID: 4861407868646823528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 98
+        width: 949
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa5247223e99b499718a560ecfeed9
+      internalID: -5356582310144874974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_24
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 129
+        width: 1133
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f461195e53c9cc242b98ab4564f76872
+      internalID: 8117737449293565671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_25
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 50
+        width: 828
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eee6706aba3784e92d4236deb0a402
+      internalID: -4957124140516651486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_26
+      rect:
+        serializedVersion: 2
+        x: 4170
+        y: 183
+        width: 928
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00065876ed9c3904dabd2f8260e29ef2
+      internalID: -6103091303836949888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_27
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 287
+        width: 1318
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680167677479cd140b2f6d35593b3e1c
+      internalID: -2123462269714905090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_28
+      rect:
+        serializedVersion: 2
+        x: 6721
+        y: 66
+        width: 1334
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75caf2a0b37cba41bf3b4b1fce19b2c
+      internalID: 4032637243010575897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_29
+      rect:
+        serializedVersion: 2
+        x: 8410
+        y: 50
+        width: 1174
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5271dc64c5330b4dbb44f7b2a15b74f
+      internalID: -7274800149962389070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rompibleSeparado_30
+      rect:
+        serializedVersion: 2
+        x: 9674
+        y: 393
+        width: 918
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad37c09030c493428905ae6fea4fa5e
+      internalID: -1634581047534173373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

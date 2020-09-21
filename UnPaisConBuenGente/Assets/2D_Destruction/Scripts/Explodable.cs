@@ -18,8 +18,8 @@ public class Explodable : MonoBehaviour
 
     public enum ShatterType
     {
-        Triangle,
-        Voronoi
+        Voronoi,
+        Triangle
     };
     public ShatterType shatterType;
     public List<GameObject> fragments = new List<GameObject>();
@@ -50,6 +50,9 @@ public class Explodable : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+  
+
     /// <summary>
     /// Creates fragments and then disables them
     /// </summary>
@@ -66,6 +69,7 @@ public class Explodable : MonoBehaviour
             frag.transform.parent = transform;
             frag.SetActive(false);
         }
+
     }
     public void deleteFragments()
     {
