@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2440355925860053378}
   - component: {fileID: 2440355925860053377}
   - component: {fileID: -4408457181324603975}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: granada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,6 +133,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explotionTime: 5
-  destroyTime: 0.3
   explotionRad: {fileID: 5072509838758398997, guid: bd01f0a419f36094bb675acc57cb8452,
     type: 3}

@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4706532308855303529}
   - component: {fileID: 3950933545625244939}
-  m_Layer: 0
+  - component: {fileID: 6845714799326349230}
+  m_Layer: 10
   m_Name: explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,3 +48,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.0796155
+--- !u!50 &6845714799326349230
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5072509838758398997}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

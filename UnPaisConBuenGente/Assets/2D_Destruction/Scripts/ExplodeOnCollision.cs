@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Explodable))]
 public class ExplodeOnCollision : MonoBehaviour
 {
-
+	public bool collisionan2 = false;
 	private Explodable _explodable;
 
 	void Start()
@@ -26,5 +26,15 @@ public class ExplodeOnCollision : MonoBehaviour
 		_explodable.explode();
 		ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
 		ef.doExplosion(transform.position);
+		collisionan2 = true;
+	}
+
+	private void OnCollisionStay2D(Collision2D col)
+	{
+		if (col.gameObject.layer != 10) return;
+		_explodable.explode();
+		ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
+		ef.doExplosion(transform.position);
+		collisionan2 = true;
 	}
 }
