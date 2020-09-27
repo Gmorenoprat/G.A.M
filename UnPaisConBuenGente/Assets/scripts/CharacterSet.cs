@@ -8,7 +8,7 @@ public class CharacterSet : MonoBehaviour
     public float speed, horizontal, jumpForce, maxJump, avJump;
     public Vector3 face;
     public bool onAir;
-
+    public GameObject weaponSpawn, weapon, currentWeapon;
     public DestroyableComp destroyable;
     public Animator Anim_Pinguin;
     public SpriteRenderer MainSprite;
@@ -20,37 +20,43 @@ public class CharacterSet : MonoBehaviour
         Head = this.GetComponent<Transform>();
         Anim_Pinguin = this.GetComponent<Animator>();
         destroyable = this.GetComponent<DestroyableComp>();
-
-
-  
         rb = this.GetComponent<Rigidbody2D>();
         face = this.transform.right;
+
+        currentWeapon = GameObject.Instantiate(weapon);
+        currentWeapon.transform.position = weaponSpawn.transform.position;
+        currentWeapon.transform.up = this.transform.up;
+        currentWeapon.transform.parent = this.transform;
+        //currentWeapon = weapon;
     }
 
-    void Update()
+    public void Update()
     {
         if (horizontal < 0)
         {
             MainSprite.flipX = true;
-            
         }
         else if (horizontal > 0)
         {
             MainSprite.flipX = false;
-            
         }
-
 
         if (destroyable.life <= 0)
         {
             GameObject.Destroy(this.gameObject);
         }
 
-        
-
         Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
         Anim_Pinguin.SetFloat("jump", rb.velocity.y);
 
+        /*if(currentWeapon != weapon)
+        {
+            currentWeapon = GameObject.Instantiate(weapon);
+            currentWeapon.transform.position = weaponSpawn.transform.position;
+            currentWeapon.transform.up = this.transform.up;
+            currentWeapon.transform.parent = this.transform;
+            currentWeapon = weapon;
+        }*/
     }
 
     public void Die()
@@ -69,8 +75,6 @@ public class CharacterSet : MonoBehaviour
         realVelocity.z = 0;
 
         rb.velocity = realVelocity;
-
-       
     }
 
     public void Jump()

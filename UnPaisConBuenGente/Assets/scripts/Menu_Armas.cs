@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Menu_Armas : MonoBehaviour
 {
-    string Name = "";
+    //string Name = "";
     Texture2D icon;
     GameObject weapon;
    
