@@ -14,6 +14,8 @@ public class CharacterSet : MonoBehaviour
     public SpriteRenderer MainSprite;
     public Transform Head;
 
+    public GameObject[] arrayWeapons;
+
     void Start()
     {
         MainSprite = this.GetComponent<SpriteRenderer>();
@@ -23,11 +25,10 @@ public class CharacterSet : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
         face = this.transform.right;
 
-        currentWeapon = GameObject.Instantiate(weapon);
+        currentWeapon = GameObject.Instantiate(arrayWeapons[0]);
         currentWeapon.transform.position = weaponSpawn.transform.position;
         currentWeapon.transform.up = this.transform.up;
         currentWeapon.transform.parent = this.transform;
-        //currentWeapon = weapon;
     }
 
     public void Update()
@@ -49,14 +50,34 @@ public class CharacterSet : MonoBehaviour
         Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
         Anim_Pinguin.SetFloat("jump", rb.velocity.y);
 
-        /*if(currentWeapon != weapon)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            currentWeapon = GameObject.Instantiate(weapon);
-            currentWeapon.transform.position = weaponSpawn.transform.position;
-            currentWeapon.transform.up = this.transform.up;
-            currentWeapon.transform.parent = this.transform;
-            currentWeapon = weapon;
-        }*/
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(0);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(2);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(3);
+        }
+    }
+
+    void InvokeWeapon(int variable)
+    {
+        currentWeapon = GameObject.Instantiate(arrayWeapons[variable]);
+        currentWeapon.transform.position = weaponSpawn.transform.position;
+        currentWeapon.transform.up = this.transform.up;
+        currentWeapon.transform.parent = this.transform;
     }
 
     public void Die()

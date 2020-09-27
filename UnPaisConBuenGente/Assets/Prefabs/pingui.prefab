@@ -243,6 +243,11 @@ MonoBehaviour:
   Anim_Pinguin: {fileID: 302698567}
   MainSprite: {fileID: 2595701759452971215}
   Head: {fileID: 1952003137}
+  arrayWeapons:
+  - {fileID: 3851949557291866409, guid: 4d58e9a156c1423499a770579507e74e, type: 3}
+  - {fileID: 3851949557291866409, guid: ba81ebeefd43aab4f89dd4c3ffa21e1d, type: 3}
+  - {fileID: 3851949557291866409, guid: 59dae1768ebfd6f47ae70f8c45103cf2, type: 3}
+  - {fileID: 3851949557291866409, guid: cac76d551c688414ca89576a10157681, type: 3}
 --- !u!114 &4063751956582448228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +264,8 @@ MonoBehaviour:
   axisHorizontal: Horizontal
   commandJump: Jump
   commandShoot: Fire1
+  mouseWorldPosition: {x: 0, y: 0, z: 0}
+  mousePosition: {x: 0, y: 0, z: 0}
 --- !u!114 &2099733027423193333
 MonoBehaviour:
   m_ObjectHideFlags: 0
