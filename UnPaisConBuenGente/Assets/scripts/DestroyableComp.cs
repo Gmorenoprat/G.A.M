@@ -17,6 +17,7 @@ public class DestroyableComp : MonoBehaviour
         if (Destructor != null)
         {
             life -= Destructor.damage;
+            DamagePopup.Create(transform.position, Destructor.damage);
             if (life <= 0)
             {
                 GameObject.Destroy(this.gameObject);
