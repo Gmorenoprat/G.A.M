@@ -8,6 +8,8 @@ public class granada : MonoBehaviour
     public float explotionTime;
     bool exp = false;
     public GameObject explotionRad;
+    public GameObject explotionAnim;
+    public AudioSource boingSound;
     public Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,8 @@ public class granada : MonoBehaviour
     {
         if (explotionTime <= 0 && !exp)
         {
+            GameObject explotionAnimo = GameObject.Instantiate(explotionAnim);
+            explotionAnimo.transform.position = this.transform.position;
             GameObject newExplotion = GameObject.Instantiate(explotionRad);
             newExplotion.transform.position = this.transform.position;
             exp = true;
@@ -31,4 +35,10 @@ public class granada : MonoBehaviour
         explotionTime -= Time.deltaTime;
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        boingSound.Play(0);
+    }
+
+   
 }

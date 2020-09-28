@@ -9,6 +9,7 @@ public class bulletSet : MonoBehaviour
     bool exp = false;
     public Rigidbody2D rb;
     public GameObject explotionRad;
+    public GameObject explotionAnim;
 
     private void Start()
     {
@@ -27,6 +28,8 @@ public class bulletSet : MonoBehaviour
     {
         if (!exp)
         {
+            GameObject newExplotionAnim = GameObject.Instantiate(explotionAnim);
+            newExplotionAnim.transform.position = this.transform.position;
             GameObject newExplotion = GameObject.Instantiate(explotionRad);
             newExplotion.transform.position = this.transform.position;
             exp = true;
