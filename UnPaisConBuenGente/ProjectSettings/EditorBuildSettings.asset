@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/winner & losers.unity
     guid: c99dd55a359398b46b66937622f7c75e
+  - enabled: 1
+    path: Assets/Scenes/Mapa horizontal.unity
+    guid: 5e15efa23999cdb4596cc6f5d99dc561
+  - enabled: 1
+    path: Assets/Scenes/Mapa Planeta.unity
+    guid: 49149349814aa464db43047ef6038bd7
+  - enabled: 1
+    path: Assets/Scenes/Playground.unity
+    guid: c345c361c1cf3b4469cb8cd23414bc41
   m_configObjects: {}
