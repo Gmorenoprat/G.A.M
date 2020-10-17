@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     public Vector3 mouseWorldPosition;
     public Vector3 mousePosition;
     public float shootForce;
-    public Image energia;
+    //public Image energia;
+    public GameObject energia;
 
     void Start()
     {
@@ -42,11 +43,11 @@ public class PlayerController : MonoBehaviour
         {
             if(shootForce <= 20)
             {
-                shootForce += Time.deltaTime * 10;
+                shootForce += Time.deltaTime * 18;
             }
 
             energia.gameObject.SetActive(true);
-            energia.transform.localScale = new Vector3(shootForce/20, 1, 1);
+            energia.transform.localScale = new Vector3(shootForce/40, 0.4f, 0.5f);
         }
 
         if (Input.GetButtonUp(commandShoot))

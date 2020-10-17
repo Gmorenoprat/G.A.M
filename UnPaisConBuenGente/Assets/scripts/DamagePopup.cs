@@ -23,6 +23,7 @@ public class DamagePopup : MonoBehaviour
     {
         textMesh = transform.GetComponent<TextMeshPro>();
     }
+
     public void Setup(int damageAmount) {
         textMesh.SetText(damageAmount.ToString());
         textColor = textMesh.color;
@@ -40,10 +41,6 @@ public class DamagePopup : MonoBehaviour
             float disappearSpeed = 3f;
             textColor.a -= disappearSpeed * Time.deltaTime;
             textMesh.color = textColor;
-            if(textColor.a < 0)
-            {
-                Destroy(gameObject);
-            }
         }
     }
 }
