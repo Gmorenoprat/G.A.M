@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Camera mainCamera;
     public Vector3 mouseWorldPosition;
     public Vector3 mousePosition;
+    public float shootForce;
 
     void Start()
     {
@@ -35,10 +36,19 @@ public class PlayerController : MonoBehaviour
             controller.Jump();
         }
 
-        if (Input.GetButtonDown(commandShoot))
+        if (Input.GetButton(commandShoot))
+        {
+            if(shootForce <= 20)
+            {
+                shootForce += Time.deltaTime * 8;
+            }
+        }
+
+        if (Input.GetButtonUp(commandShoot))
         {
             WeaponSet weps = controller.currentWeapon.GetComponent<WeaponSet>();
-            weps.Shoot();
+            weps.Shoot(shootForce);
+            shootForce = 0;
         }
     }
 }
