@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 mouseWorldPosition;
     public Vector3 mousePosition;
     public float shootForce;
+    public Image energia;
 
     void Start()
     {
@@ -40,12 +42,16 @@ public class PlayerController : MonoBehaviour
         {
             if(shootForce <= 20)
             {
-                shootForce += Time.deltaTime * 8;
+                shootForce += Time.deltaTime * 10;
             }
+
+            energia.gameObject.SetActive(true);
+            energia.transform.localScale = new Vector3(shootForce/20, 1, 1);
         }
 
         if (Input.GetButtonUp(commandShoot))
         {
+            energia.gameObject.SetActive(false);
             WeaponSet weps = controller.currentWeapon.GetComponent<WeaponSet>();
             weps.Shoot(shootForce);
             shootForce = 0;
