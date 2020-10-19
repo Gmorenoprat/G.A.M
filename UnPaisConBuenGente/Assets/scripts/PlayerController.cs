@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -12,8 +13,10 @@ public class PlayerController : MonoBehaviour
     public Vector3 mouseWorldPosition;
     public Vector3 mousePosition;
     public float shootForce;
+    public bool yaDisparo = false;
     //public Image energia;
     public GameObject energia;
+    
 
     void Start()
     {
@@ -56,6 +59,10 @@ public class PlayerController : MonoBehaviour
             WeaponSet weps = controller.currentWeapon.GetComponent<WeaponSet>();
             weps.Shoot(shootForce);
             shootForce = 0;
+            
+            yaDisparo = true;
+            //desactivar movimiento? testear...
+            this.enabled = false;
         }
     }
 }
