@@ -36,6 +36,8 @@ public class WeaponSet : MonoBehaviour
                 newBullet.transform.up = this.transform.up;
                 ammo--;
             }
+
+            Camera.main.GetComponent<CameraFollowScript>().SetFollow(newBullet);
         }
     }
 }

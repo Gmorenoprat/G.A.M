@@ -15,6 +15,8 @@ public class TurnMananger : MonoBehaviour
     public int posA;
     public int posB;
 
+    public float timeEspera = 5f;
+
 
 
     private void Start()
@@ -46,7 +48,12 @@ public class TurnMananger : MonoBehaviour
     {
         if (activeCharacter.GetComponent<PlayerController>().yaDisparo == true)
         {
-            cambiarTurno();
+            timeEspera -= Time.deltaTime;
+            if (timeEspera <= 0)
+            {
+                cambiarTurno();
+                timeEspera = 5f;
+            }
         }
     }
 
@@ -58,14 +65,12 @@ public class TurnMananger : MonoBehaviour
         {
             desactivarCharacter(player1Characters[posA]);
             activarCharacter(player2Characters[posB]);
-            setCamera(player2Characters[posB]);
             posA += 1;
             posA = posA % player1Characters.Length;
         }
         if (!esPlayer1)
         {
             activarCharacter(player1Characters[posA]);
-            setCamera(player1Characters[posA]);
             desactivarCharacter(player2Characters[posB]);
             posB += 1;
             posB = posB % player2Characters.Length;
@@ -79,6 +84,7 @@ public class TurnMananger : MonoBehaviour
         character.GetComponent<CharacterSet>().enabled = true;
         activeCharacter = character;
         activeCharacter.GetComponent<PlayerController>().yaDisparo = false;
+        setCamera(character);
     }
     private void desactivarCharacter(GameObject character)
     {
@@ -88,9 +94,7 @@ public class TurnMananger : MonoBehaviour
 
     private void setCamera(GameObject character)
     {
-        Vector3 posPlayer = character.transform.position;
-        posPlayer.z = -40;
-        Camera.main.transform.position = posPlayer;
+        Camera.main.GetComponent<CameraFollowScript>().SetFollow(character);
     }
 
 
