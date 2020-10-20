@@ -46,7 +46,7 @@ public class TurnMananger : MonoBehaviour
 
     private void Update()
     {
-        if (activeCharacter.GetComponent<PlayerController>().yaDisparo == true)
+        if (activeCharacter.GetComponent<PlayerController>().yaDisparo == true || activeCharacter == null)
         {
             timeEspera -= Time.deltaTime;
             if (timeEspera <= 0)

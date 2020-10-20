@@ -23,6 +23,7 @@ public class bulletSet : MonoBehaviour
             rb.AddForce(transform.up * shootForce * rb.gravityScale * rb.mass, ForceMode2D.Impulse);
             avShoot--;
         }
+        this.transform.up = rb.velocity.normalized;
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {

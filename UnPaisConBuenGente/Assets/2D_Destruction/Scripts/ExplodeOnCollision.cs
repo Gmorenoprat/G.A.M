@@ -24,8 +24,6 @@ public class ExplodeOnCollision : MonoBehaviour
 	{
 		if (col.gameObject.layer != 10) return;
 		_explodable.explode();
-		ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
-		ef.doExplosion(transform.position);
 		collisionan2 = true;
 	}
 
@@ -33,8 +31,6 @@ public class ExplodeOnCollision : MonoBehaviour
 	{
 		if (col.gameObject.layer != 10) return;
 		_explodable.explode();
-		ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
-		ef.doExplosion(transform.position);
 		collisionan2 = true;
 	}
 }
