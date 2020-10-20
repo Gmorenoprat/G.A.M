@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     public Vector3 mousePosition;
     public float shootForce;
     public bool yaDisparo = false;
-    //public Image energia;
     public GameObject energia;
     
 
