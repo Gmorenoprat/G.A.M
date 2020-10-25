@@ -11,6 +11,8 @@ public class bulletSet : MonoBehaviour
     public GameObject explotionRad;
     public GameObject explotionAnim;
     SpriteRenderer bulletSprite;
+    public bool thisMolo;
+    public GameObject spawn1, spawn2, spawn3, spawn4, spawn5;
 
     private void Start()
     {
@@ -31,7 +33,7 @@ public class bulletSet : MonoBehaviour
     {
         bulletSprite.color = new Color(0,0,0,0);
 
-        if (!exp)
+        if (!exp && thisMolo==false)
         {
             GameObject newExplotionAnim = GameObject.Instantiate(explotionAnim);
             newExplotionAnim.transform.position = this.transform.position;
@@ -40,6 +42,34 @@ public class bulletSet : MonoBehaviour
             exp = true;
             GameObject.Destroy(this.gameObject, 0.2f);
             GameObject.Destroy(newExplotion.gameObject, 0.2f);
+        }
+        else if (!exp && thisMolo == true)
+        {
+            //GameObject newExplotionAnim = GameObject.Instantiate(explotionAnim);
+            //newExplotionAnim.transform.position = this.transform.position;
+
+            GameObject newExplotion = GameObject.Instantiate(explotionRad);
+            newExplotion.transform.position = spawn1.transform.position;
+
+            GameObject newExplotion2 = GameObject.Instantiate(explotionRad);
+            newExplotion2.transform.position = spawn2.transform.position;
+
+            GameObject newExplotion3 = GameObject.Instantiate(explotionRad);
+            newExplotion3.transform.position = spawn3.transform.position;
+
+            GameObject newExplotion4 = GameObject.Instantiate(explotionRad);
+            newExplotion4.transform.position = spawn3.transform.position;
+
+            GameObject newExplotion5 = GameObject.Instantiate(explotionRad);
+            newExplotion5.transform.position = spawn3.transform.position;
+
+            exp = true;
+            GameObject.Destroy(this.gameObject, 0.2f);
+            GameObject.Destroy(newExplotion.gameObject, 2f);
+            GameObject.Destroy(newExplotion2.gameObject, 2f);
+            GameObject.Destroy(newExplotion3.gameObject, 2f);
+            GameObject.Destroy(newExplotion4.gameObject, 2f);
+            GameObject.Destroy(newExplotion5.gameObject, 2f);
         }
     }
 }
