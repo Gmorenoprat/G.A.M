@@ -219,6 +219,8 @@ MonoBehaviour:
   shootForce: 0
   yaDisparo: 0
   energia: {fileID: 7225759440189714749}
+  spriteRend: {fileID: 0}
+  cabezaSRend: {fileID: 8720095743527616785}
 --- !u!114 &3127294201175595283
 MonoBehaviour:
   m_ObjectHideFlags: 0

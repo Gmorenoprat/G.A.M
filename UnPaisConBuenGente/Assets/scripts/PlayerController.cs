@@ -15,10 +15,13 @@ public class PlayerController : MonoBehaviour
     public float shootForce;
     public bool yaDisparo = false;
     public GameObject energia;
-    
+    public SpriteRenderer spriteRend;
+    public SpriteRenderer cabezaSRend;
+
 
     void Start()
     {
+        spriteRend = this.GetComponent<SpriteRenderer>();
         controller = this.GetComponent<CharacterSet>();
         if (mainCamera == null)
         {
@@ -63,5 +66,16 @@ public class PlayerController : MonoBehaviour
             //desactivar movimiento? testear...
             this.enabled = false;
         }
+
+        flipRenderer((mouseWorldPosition - transform.position).x <= 0);
+
+    }
+
+    public void flipRenderer(bool flip)
+    {
+        spriteRend.flipX = flip;
+        cabezaSRend.flipX = flip;
+        controller.currentWeapon.GetComponent<SpriteRenderer>().flipX = !flip;
+
     }
 }
