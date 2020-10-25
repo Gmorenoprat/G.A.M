@@ -10,10 +10,12 @@ public class bulletSet : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject explotionRad;
     public GameObject explotionAnim;
+    SpriteRenderer bulletSprite;
 
     private void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        bulletSprite = this.GetComponent<SpriteRenderer>();
     }
     private void Update()
     {
@@ -27,6 +29,8 @@ public class bulletSet : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        bulletSprite.color = new Color(0,0,0,0);
+
         if (!exp)
         {
             GameObject newExplotionAnim = GameObject.Instantiate(explotionAnim);
