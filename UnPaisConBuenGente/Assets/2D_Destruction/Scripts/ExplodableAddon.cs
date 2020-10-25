@@ -6,6 +6,9 @@ using System.Collections.Generic;
 [RequireComponent(typeof(Explodable))]
 public abstract class ExplodableAddon : MonoBehaviour {
     protected Explodable explodable;
+
+
+
 	// Use this for initialization
 	void Start () {
         explodable = GetComponent<Explodable>();

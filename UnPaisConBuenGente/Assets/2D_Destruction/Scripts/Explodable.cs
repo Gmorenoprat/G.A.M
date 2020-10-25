@@ -40,8 +40,10 @@ public class Explodable : MonoBehaviour
         {
             foreach (GameObject frag in fragments)
             {
+
                 frag.transform.parent = null;
                 frag.SetActive(true);
+                frag.AddComponent<FadeOutFrag>();
             }
         }
         //if fragments exist destroy the original
@@ -105,6 +107,8 @@ public class Explodable : MonoBehaviour
                 Debug.Log("invalid choice");
                 break;
         }
+
+
         //sets additional aspects of the fragments
         foreach (GameObject p in fragments)
         {
