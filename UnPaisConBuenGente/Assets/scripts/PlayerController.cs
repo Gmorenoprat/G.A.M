@@ -10,6 +10,10 @@ public class PlayerController : MonoBehaviour
     public CharacterSet controller;
     public string axisHorizontal, commandJump, commandShoot;
     Camera mainCamera;
+
+    public SpriteRenderer spriteRend;
+    public SpriteRenderer cabezaSRend;
+
     public Vector3 mouseWorldPosition;
     public Vector3 mousePosition;
     public float shootForce;
@@ -21,6 +25,10 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+<<<<<<< refs/remotes/origin/main
+=======
+
+>>>>>>> flipsX
         spriteRend = this.GetComponent<SpriteRenderer>();
         controller = this.GetComponent<CharacterSet>();
         if (mainCamera == null)
@@ -66,7 +74,10 @@ public class PlayerController : MonoBehaviour
             //desactivar movimiento? testear...
             this.enabled = false;
         }
+<<<<<<< refs/remotes/origin/main
 
+=======
+>>>>>>> flipsX
         flipRenderer((mouseWorldPosition - transform.position).x <= 0);
 
     }
@@ -76,6 +87,10 @@ public class PlayerController : MonoBehaviour
         spriteRend.flipX = flip;
         cabezaSRend.flipX = flip;
         controller.currentWeapon.GetComponent<SpriteRenderer>().flipX = !flip;
+<<<<<<< refs/remotes/origin/main
 
+=======
+        
+>>>>>>> flipsX
     }
 }
