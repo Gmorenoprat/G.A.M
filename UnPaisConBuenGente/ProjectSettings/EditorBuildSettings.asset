@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: c345c361c1cf3b4469cb8cd23414bc41
+  - enabled: 1
+    path: Assets/Scenes/winner gorila.unity
+    guid: 37eabb4abec772b4bacea1c422556268
   m_configObjects: {}
