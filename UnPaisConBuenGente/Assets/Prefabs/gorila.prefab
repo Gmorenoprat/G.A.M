@@ -214,13 +214,13 @@ MonoBehaviour:
   axisHorizontal: Horizontal
   commandJump: Jump
   commandShoot: Fire1
+  spriteRend: {fileID: 0}
+  cabezaSRend: {fileID: 8720095743527616785}
   mouseWorldPosition: {x: 0, y: 0, z: 0}
   mousePosition: {x: 0, y: 0, z: 0}
   shootForce: 0
   yaDisparo: 0
   energia: {fileID: 7225759440189714749}
-  spriteRend: {fileID: 0}
-  cabezaSRend: {fileID: 8720095743527616785}
 --- !u!114 &3127294201175595283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ Animator:
   m_GameObject: {fileID: 4289051080824773189}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4846e151712e4594b81c0636d656a420, type: 2}
+  m_Controller: {fileID: 9100000, guid: c3659bd3059fb294698f81aa816f58e6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
