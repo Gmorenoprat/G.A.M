@@ -230,9 +230,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 2
+  speed: 2.3
   horizontal: 0
-  jumpForce: 3.5
+  jumpForce: 4
   maxJump: 1
   avJump: 1
   face: {x: 0, y: 0, z: 0}
