@@ -20,6 +20,7 @@ public class DestroyableComp : MonoBehaviour
             DamagePopup.Create(transform.position, Destructor.damage);
             if (life <= 0)
             {
+                FindObjectOfType<conditionWiner>().lifeDown(gameObject);
                 GameObject.Destroy(this.gameObject);
             }
         }
