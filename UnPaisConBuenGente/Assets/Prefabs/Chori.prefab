@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -8732442274715023301}
   - component: {fileID: -7400676176291141511}
   - component: {fileID: -6107908675724292067}
-  - component: {fileID: 2429429260511612988}
   - component: {fileID: 3066564028773950869}
   m_Layer: 0
   m_Name: Chori
@@ -121,6 +120,7 @@ MonoBehaviour:
   shootForce: 0
   boingSound: {fileID: 0}
   rb: {fileID: -8732442274715023301}
+  durationTime: 5
 --- !u!82 &-6107908675724292067
 AudioSource:
   m_ObjectHideFlags: 0
@@ -217,19 +217,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2429429260511612988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2830532297316307553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df35c7c399ca48442a406f6578bec392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
 --- !u!61 &3066564028773950869
 BoxCollider2D:
   m_ObjectHideFlags: 0

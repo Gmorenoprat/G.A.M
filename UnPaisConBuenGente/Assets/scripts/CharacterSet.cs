@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CharacterSet : MonoBehaviour
@@ -13,6 +14,7 @@ public class CharacterSet : MonoBehaviour
     public Animator Anim_Pinguin;
     public SpriteRenderer MainSprite;
     public Transform Head;
+    public TextMeshPro nombreCharacter;
 
     public GameObject[] arrayWeapons;
 
