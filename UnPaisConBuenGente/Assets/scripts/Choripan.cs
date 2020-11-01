@@ -9,6 +9,9 @@ public class Choripan : MonoBehaviour
     public Rigidbody2D rb;
     public float durationTime = 5f;
 
+    public int damage = 20;
+
+
     private Color alphaColor;
     private float timeToFade = 2f;
     private float timeToDestroy = 2f;
@@ -44,12 +47,12 @@ public class Choripan : MonoBehaviour
     {
         if(collision.gameObject.layer == 15) //gorila
         {
-            collision.gameObject.GetComponent<DestroyableComp>().getDamage(this.GetComponent<DestructorComp>().damage);
+            collision.gameObject.GetComponent<DestroyableComp>().getDamage(this.damage);
             GameObject.Destroy(this.gameObject);
         }
         if(collision.gameObject.layer == 14) //pinguino
         {
-            collision.gameObject.GetComponent<DestroyableComp>().getHealth(this.GetComponent<DestructorComp>().damage);
+            collision.gameObject.GetComponent<DestroyableComp>().getHealth(this.damage);
             GameObject.Destroy(this.gameObject);
         }
     }
