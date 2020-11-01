@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DestroyableComp : MonoBehaviour
 {
     public float life;
+    public TextMeshPro vidaTextMesh;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,11 +26,13 @@ public class DestroyableComp : MonoBehaviour
     {
         life -= dmg;
         DamagePopup.Create(transform.position, dmg, true);
+        vidaTextMesh.text = life.ToString();
     }
 
     public void getHealth(int hp)
     {
         life += hp;
         DamagePopup.Create(transform.position, hp , false);
+        vidaTextMesh.text = life.ToString();
     }
 }
