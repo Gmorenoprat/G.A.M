@@ -6,12 +6,12 @@ using UnityEngine;
 public class DamagePopup : MonoBehaviour
 {
 
-    public static DamagePopup Create(Vector3 position, int damageAmount)
+    public static DamagePopup Create(Vector3 position, int damageAmount, bool esDanio)
     {
         Transform damagePopupTransform = Instantiate(GameAssets.i.pfDamagePopup, position, Quaternion.identity);
         DamagePopup damagePopup = damagePopupTransform.GetComponent<DamagePopup>();
        
-        damagePopup.Setup(damageAmount);
+        damagePopup.Setup(damageAmount, esDanio);
 
         return damagePopup;
     }
@@ -24,9 +24,14 @@ public class DamagePopup : MonoBehaviour
         textMesh = transform.GetComponent<TextMeshPro>();
     }
 
-    public void Setup(int damageAmount) {
+    public void Setup(int damageAmount, bool esDanio) {
         textMesh.SetText(damageAmount.ToString());
-        textColor = textMesh.color;
+        textMesh.faceColor = new Color32(255, 30, 30, 255);
+        
+        if (!esDanio)
+        {
+            textMesh.faceColor = new Color32(47, 188, 35, 255);
+        }
         disappearTimer = 1f;
     }
 

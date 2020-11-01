@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952003136}
   - component: {fileID: 1952003137}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: peron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4063751956582448228}
   - component: {fileID: 2099733027423193333}
   - component: {fileID: 302698567}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: pingui
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -265,13 +265,13 @@ MonoBehaviour:
   axisHorizontal: Horizontal
   commandJump: Jump
   commandShoot: Fire1
+  spriteRend: {fileID: 0}
+  cabezaSRend: {fileID: 1952003137}
   mouseWorldPosition: {x: 0, y: 0, z: 0}
   mousePosition: {x: 0, y: 0, z: 0}
   shootForce: 0
   yaDisparo: 0
   energia: {fileID: 5909475313387839707}
-  spriteRend: {fileID: 0}
-  cabezaSRend: {fileID: 1952003137}
 --- !u!114 &2099733027423193333
 MonoBehaviour:
   m_ObjectHideFlags: 0

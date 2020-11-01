@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 1018087630076112258}
   - component: {fileID: 3127294201175595283}
   - component: {fileID: 3910709498092192161}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gorila
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7562269166876307226}
   - component: {fileID: 8720095743527616785}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: bullrich
   m_TagString: Untagged
   m_Icon: {fileID: 0}

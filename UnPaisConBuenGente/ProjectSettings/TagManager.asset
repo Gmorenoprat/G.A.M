@@ -13,6 +13,7 @@ TagManager:
   - HealthBar
   - floor
   - BombPickup
+  - Sky
   layers:
   - Default
   - TransparentFX
@@ -28,8 +29,8 @@ TagManager:
   - player
   - bullet
   - UI
-  - 
-  - 
+  - Pinguino
+  - Gorila
   - 
   - 
   - 

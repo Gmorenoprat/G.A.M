@@ -17,6 +17,8 @@ public class TurnMananger : MonoBehaviour
 
     public float timeEspera = 5f;
 
+    public Fondo_loop fondo;
+
 
 
     private void Start()
@@ -76,6 +78,11 @@ public class TurnMananger : MonoBehaviour
             posB = posB % player2Characters.Length;
         }
         esPlayer1 = !esPlayer1;
+
+        if(fondo != null)
+        {
+            fondo.ChangeRandomDirectionSpeed();
+        }
     }
 
 
@@ -96,6 +103,7 @@ public class TurnMananger : MonoBehaviour
     {
         Camera.main.GetComponent<CameraFollowScript>().SetFollow(character);
     }
+
 
 
 
