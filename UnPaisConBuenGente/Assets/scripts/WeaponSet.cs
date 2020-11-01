@@ -36,6 +36,14 @@ public class WeaponSet : MonoBehaviour
                 newBullet.transform.up = this.transform.up;
                 ammo--;
             }
+            else if(newBullet.GetComponent<GatoVolador>() != null)
+            {
+                GatoVolador bulls = newBullet.GetComponent<GatoVolador>();
+                newBullet.transform.position = bulletSpawn.transform.position;
+                newBullet.transform.up = this.transform.up;
+                bulls.shootForce = shootForce;
+                ammo--;
+            }
 
 
             Camera.main.GetComponent<CameraFollowScript>().SetFollow(newBullet);
