@@ -34,11 +34,15 @@ public class Choripan : MonoBehaviour
                 Destroy(this.gameObject);
             }
         }
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-       // boingSound.Play(0);
+       if(collision.gameObject.tag=="Player")
+        {
+            boingSound.Play(0);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
