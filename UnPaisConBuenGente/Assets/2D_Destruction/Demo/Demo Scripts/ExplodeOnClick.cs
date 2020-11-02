@@ -8,11 +8,11 @@ public class ExplodeOnClick : MonoBehaviour {
 
 	void Start()
 	{
-		_explodable = GetComponent<Explodable>();
+		//_explodable = GetComponent<Explodable>();
 	}
 	void OnMouseDown()
 	{
-		_explodable.explode();
+		//_explodable.explode();
 		//ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
 		//ef.doExplosion(transform.position);
 	}
