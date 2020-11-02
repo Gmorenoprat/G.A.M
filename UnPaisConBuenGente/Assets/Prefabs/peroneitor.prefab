@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 2099733027423193333}
   - component: {fileID: 302698567}
   m_Layer: 14
-  m_Name: pingui
+  m_Name: peroneitor
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,7 +245,8 @@ MonoBehaviour:
   destroyable: {fileID: 0}
   Anim_Pinguin: {fileID: 302698567}
   MainSprite: {fileID: 2595701759452971215}
-  Head: {fileID: 1952003137}
+  Head: {fileID: 1952003136}
+  nombreCharacter: {fileID: 7940696206211490737}
   arrayWeapons:
   - {fileID: 3851949557291866409, guid: 4d58e9a156c1423499a770579507e74e, type: 3}
   - {fileID: 3851949557291866409, guid: ba81ebeefd43aab4f89dd4c3ffa21e1d, type: 3}
