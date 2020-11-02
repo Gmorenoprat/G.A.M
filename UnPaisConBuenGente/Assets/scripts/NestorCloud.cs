@@ -29,7 +29,7 @@ public class NestorCloud : MonoBehaviour
         if (sky.speed > 0) direcction = 1;
         else direcction = -1;
 
-        if (direcction > 0) spawn = new Vector2(-56f, 15f);
+        if (direcction < 0) spawn = new Vector2(-56f, 15f);
         else spawn = new Vector2(23f, 15f);
 
         this.transform.position = spawn;

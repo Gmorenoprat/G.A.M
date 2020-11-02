@@ -96,8 +96,8 @@ MonoBehaviour:
   sky: {fileID: 0}
   direcction: 0
   spawn: {x: 0, y: 0}
-  velocidadNube: 5
-  tiempoSpawnChorisMax: 2
+  velocidadNube: 10
+  tiempoSpawnChorisMax: 1
   tiempoSpawnChoris: 0
   sRend: {fileID: 0}
   chori: {fileID: 2830532297316307553, guid: 01e83ec2295eb9e498eec08b1315a459, type: 3}

@@ -59,6 +59,10 @@ public class TurnMananger : MonoBehaviour
                 timeEspera = 5f;
             }
         }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            cambiarTurno();
+        }
     }
 
     private void cambiarTurno()

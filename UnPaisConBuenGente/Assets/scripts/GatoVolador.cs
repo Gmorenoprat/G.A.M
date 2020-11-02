@@ -25,7 +25,7 @@ public class GatoVolador : MonoBehaviour
     void Update()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = transform.up * shootForce * 1.5f;
+        rb.velocity = transform.up * shootForce * 1.2f;
         compTransform.Rotate(0, 0, -speedRot * Time.deltaTime * Input.GetAxis(axisHorizontal));
     }
 
