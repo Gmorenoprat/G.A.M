@@ -46,17 +46,18 @@ public class Choripan : MonoBehaviour
         splatSound.Play(0);
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {   
-         if(collision.gameObject.layer == 15) //gorila
-        {
-            eatSound.Play(0);
+    {
+
+         if (collision.gameObject.layer == 15) //gorila
+         {
+            
             collision.gameObject.GetComponent<DestroyableComp>().getDamage(damage);
 
             GameObject.Destroy(this.gameObject);
-        }
+         }
         if(collision.gameObject.layer == 14) //pinguino
         {
-            eatSound.Play(0);
+            
             collision.gameObject.GetComponent<DestroyableComp>().getHealth(damage);
 
             GameObject.Destroy(this.gameObject);
