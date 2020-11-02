@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityScript.Lang;
 
@@ -19,7 +18,6 @@ public class TurnMananger : MonoBehaviour
     public float timeEspera = 5f;
 
     public Fondo_loop fondo;
-    public menuArmas menu_armas;
 
 
 
@@ -94,9 +92,7 @@ public class TurnMananger : MonoBehaviour
         activeCharacter = character;
         activeCharacter.GetComponent<PlayerController>().yaDisparo = false;
         setCamera(character);
-        string charName = character.GetComponent<CharacterSet>().nombreCharacter.text;
-        menu_armas.SetSpecialHability(charName); //nombreDelCharacter
-       }
+    }
     private void desactivarCharacter(GameObject character)
     {
         character.GetComponent<PlayerController>().enabled = false;

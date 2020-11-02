@@ -5,12 +5,9 @@ using UnityEngine;
 public class Choripan : MonoBehaviour
 {
     public float shootForce;
-    public AudioSource EatSound;
+    public AudioSource boingSound;
     public Rigidbody2D rb;
     public float durationTime = 5f;
-
-    public int damage = 20;
-
 
     private Color alphaColor;
     private float timeToFade = 2f;
@@ -19,7 +16,6 @@ public class Choripan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        EatSound=GetComponent<AudioSource>();
         rb = this.GetComponent<Rigidbody2D>();
         rb.velocity = Vector3.zero;
         rb.AddForce(transform.up * shootForce * rb.gravityScale * rb.mass, ForceMode2D.Impulse);
@@ -42,20 +38,18 @@ public class Choripan : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-       
+       // boingSound.Play(0);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.layer == 15) //gorila
         {
-            EatSound.Play();
-            collision.gameObject.GetComponent<DestroyableComp>().getDamage(this.damage);
+            collision.gameObject.GetComponent<DestroyableComp>().getDamage(this.GetComponent<DestructorComp>().damage);
             GameObject.Destroy(this.gameObject);
         }
         if(collision.gameObject.layer == 14) //pinguino
         {
-            EatSound.Play();
-            collision.gameObject.GetComponent<DestroyableComp>().getHealth(this.damage);
+            collision.gameObject.GetComponent<DestroyableComp>().getHealth(this.GetComponent<DestructorComp>().damage);
             GameObject.Destroy(this.gameObject);
         }
     }
