@@ -80,14 +80,19 @@ public class PlayerController : MonoBehaviour
             WeaponSet weps = controller.currentWeapon.GetComponent<WeaponSet>();
             weps.Shoot(shootForce);
             shootForce = 0;
-            
-            yaDisparo = true;
+
+            yaSeDisparo();
             //desactivar movimiento? testear...
             this.enabled = false;
         }
 
         flipRenderer((mouseWorldPosition - transform.position).x <= 0);
 
+    }
+
+    public void yaSeDisparo()
+    {
+        yaDisparo = true;
     }
 
     public void flipRenderer(bool flip)

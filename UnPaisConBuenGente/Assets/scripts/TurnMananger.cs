@@ -6,8 +6,8 @@ using UnityScript.Lang;
 
 public class TurnMananger : MonoBehaviour
 {
-    public GameObject[] player1Characters;
-    public GameObject[] player2Characters;
+    public List<GameObject> player1Characters;
+    public List<GameObject> player2Characters;
 
     public GameObject activeCharacter;
 
@@ -25,16 +25,14 @@ public class TurnMananger : MonoBehaviour
 
     private void Start()
     {
-        foreach (GameObject player in player1Characters)
-        {
-            desactivarCharacter(player);
-        }
-        foreach (GameObject player in player2Characters)
-        {
-            desactivarCharacter(player);
-        }
+        
+         desactivarCharacters();
 
+        posA = Random.Range(0, player1Characters.Count);
+        posB = Random.Range(0, player2Characters.Count);
+        
         var empiezaP1 = (Random.value < 0.5);
+
         if (empiezaP1)
         {
             activarCharacter(player1Characters[posA]);
@@ -50,15 +48,18 @@ public class TurnMananger : MonoBehaviour
 
     private void Update()
     {
-        if (activeCharacter.GetComponent<PlayerController>().yaDisparo == true || activeCharacter == null)
+        if (activeCharacter != null)
         {
-            timeEspera -= Time.deltaTime;
-            if (timeEspera <= 0)
-            {
-                cambiarTurno();
-                timeEspera = 5f;
+            if(activeCharacter.GetComponent<PlayerController>().yaDisparo == true) { 
+                timeEspera -= Time.deltaTime;
+                if (timeEspera <= 0)
+                {
+                    cambiarTurno();
+                    timeEspera = 5f;
+                }
             }
         }
+        else { timeEspera = 5f;  cambiarTurno(); }
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             cambiarTurno();
@@ -67,28 +68,34 @@ public class TurnMananger : MonoBehaviour
 
     private void cambiarTurno()
     {
+        if (fondo != null) fondo.ChangeRandomDirectionSpeed();
+        desactivarCharacters();
 
         //si esPlayer1 lo desactiva (pasa turno)
         if (esPlayer1)
         {
-            desactivarCharacter(player1Characters[posA]);
-            activarCharacter(player2Characters[posB]);
             posA += 1;
-            posA = posA % player1Characters.Length;
+            posA = posA % player1Characters.Count;
+            try
+            {activarCharacter(player2Characters[posB]);}
+            catch
+            {player2Characters.RemoveAt(posB);}
+
         }
         if (!esPlayer1)
         {
-            activarCharacter(player1Characters[posA]);
-            desactivarCharacter(player2Characters[posB]);
             posB += 1;
-            posB = posB % player2Characters.Length;
+            posB = posB % player2Characters.Count;
+
+            try
+            { activarCharacter(player1Characters[posA]);}
+            catch
+            {player1Characters.RemoveAt(posA);}
         }
+
         esPlayer1 = !esPlayer1;
 
-        if(fondo != null)
-        {
-            fondo.ChangeRandomDirectionSpeed();
-        }
+        
     }
 
 
@@ -101,10 +108,18 @@ public class TurnMananger : MonoBehaviour
         string charName = character.GetComponent<CharacterSet>().nombreCharacter.text;
         menu_armas.SetSpecialHability(charName); //nombreDelCharacter
        }
-    private void desactivarCharacter(GameObject character)
+    private void desactivarCharacters()
     {
-        character.GetComponent<PlayerController>().enabled = false;
-        character.GetComponent<CharacterSet>().enabled = false;
+        foreach(GameObject character in player1Characters) {
+            if (!character) continue; // { player1Characters.RemoveAt(player1Characters.IndexOf(character)); continue; }
+            character.GetComponent<PlayerController>().enabled = false;
+            character.GetComponent<CharacterSet>().enabled = false;
+        }
+        foreach(GameObject character in player2Characters) {
+            if (!character) continue;
+            character.GetComponent<PlayerController>().enabled = false;
+            character.GetComponent<CharacterSet>().enabled = false;
+        }
     }
 
     private void setCamera(GameObject character)
