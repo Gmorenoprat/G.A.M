@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public bool yaDisparo = false;
     public GameObject energia;
 
+    public float buitreCont;
+
 
     void Start()
     {
@@ -44,6 +46,21 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown(commandJump))
         {
             controller.Jump();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            buitreCont = 10;
+        }
+
+        if (buitreCont > 0)
+        {
+            if (Input.GetButtonDown(commandJump))
+            {
+                controller.rb.velocity = Vector3.zero;
+                controller.rb.AddForce(Vector3.up * controller.jumpForce * controller.rb.gravityScale * controller.rb.mass, ForceMode2D.Impulse);
+                buitreCont--;
+            }
         }
 
         if (Input.GetButton(commandShoot))

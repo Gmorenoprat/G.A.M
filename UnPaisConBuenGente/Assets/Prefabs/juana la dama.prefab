@@ -201,6 +201,7 @@ MonoBehaviour:
   - {fileID: 3851949557291866409, guid: ba81ebeefd43aab4f89dd4c3ffa21e1d, type: 3}
   - {fileID: 3851949557291866409, guid: 59dae1768ebfd6f47ae70f8c45103cf2, type: 3}
   - {fileID: 3851949557291866409, guid: 2ec7f36ac15941c429bafa79a999f5b8, type: 3}
+  - {fileID: 8243385649037028881, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
 --- !u!114 &1018087630076112258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +225,7 @@ MonoBehaviour:
   shootForce: 0
   yaDisparo: 0
   energia: {fileID: 7225759440189714749}
+  buitreCont: 0
 --- !u!114 &3127294201175595283
 MonoBehaviour:
   m_ObjectHideFlags: 0

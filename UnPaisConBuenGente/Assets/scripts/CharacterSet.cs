@@ -72,6 +72,11 @@ public class CharacterSet : MonoBehaviour
             GameObject.Destroy(currentWeapon.gameObject);
             InvokeWeapon(3);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(4);
+        }
     }
 
     void InvokeWeapon(int variable)
