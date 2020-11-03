@@ -25,7 +25,7 @@ public class GatoVolador : MonoBehaviour
     void Update()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = transform.up * shootForce * 1.2f;
+        rb.velocity = transform.up * shootForce * 2;
         compTransform.Rotate(0, 0, -speedRot * Time.deltaTime * Input.GetAxis(axisHorizontal));
     }
 
@@ -39,6 +39,7 @@ public class GatoVolador : MonoBehaviour
             newExplotionAnim.transform.position = this.transform.position;
             GameObject newExplotion = GameObject.Instantiate(explotionRad);
             newExplotion.transform.position = this.transform.position;
+            newExplotion.GetComponent<DestructorComp>().damage=(int)(shootForce*2.5f);
             exp = true;
             GameObject.Destroy(this.gameObject, 0.2f);
             GameObject.Destroy(newExplotion.gameObject, 0.2f);
