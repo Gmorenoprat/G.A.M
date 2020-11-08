@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6168432953768664643}
   - component: {fileID: 834377928587205815}
   - component: {fileID: 4868439820581630781}
-  m_Layer: 10
+  m_Layer: 16
   m_Name: muerte
   m_TagString: Untagged
   m_Icon: {fileID: 0}

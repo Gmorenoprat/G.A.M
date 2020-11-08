@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2440355925860053377}
   - component: {fileID: -4408457181324603975}
   - component: {fileID: -8365950110890895031}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: granada
   m_TagString: Untagged
   m_Icon: {fileID: 0}

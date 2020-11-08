@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class NestorCloud : MonoBehaviour
 {
-
     public Fondo_loop sky;
     public int direcction;
     public Vector2 spawn;
@@ -23,9 +22,9 @@ public class NestorCloud : MonoBehaviour
     {
         sky = GameObject.FindGameObjectWithTag("Sky").GetComponent<Fondo_loop>();
     }
+
     void Start()
     {
-
         if (sky.speed > 0) direcction = 1;
         else direcction = -1;
 
@@ -37,18 +36,23 @@ public class NestorCloud : MonoBehaviour
         sRend = this.GetComponent<SpriteRenderer>();
         if (direcction > 0) sRend.flipX = true;
     }
+
     void Update()
     {
        transform.position += new Vector3(velocidadNube * -direcction, 0) * Time.deltaTime;
 
         if(tiempoSpawnChoris < 0)
         {
-
             GameObject newChori = GameObject.Instantiate(chori);
             Choripan choripan = newChori.GetComponent<Choripan>();
             choripan.transform.position = this.transform.position;
             tiempoSpawnChoris = tiempoSpawnChorisMax;
         }
         tiempoSpawnChoris -= Time.deltaTime;
+    }
+
+    private void OnBecameInvisible()
+    {
+        
     }
 }
