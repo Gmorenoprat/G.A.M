@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public bool yaDisparo = false;
     public GameObject energia;
 
+    public GameObject randomSpots;
+
     public float buitreCont;
 
 
@@ -27,6 +29,10 @@ public class PlayerController : MonoBehaviour
     {
         spriteRend = this.GetComponent<SpriteRenderer>();
         controller = this.GetComponent<CharacterSet>();
+
+        randomSpots = GameObject.FindGameObjectsWithTag("SpotGenerator")[0];
+        RandomSpotSpawnHorizontal randoms = randomSpots.GetComponent<RandomSpotSpawnHorizontal>();
+        this.transform.position = randoms.getSpawn();
         if (mainCamera == null)
         {
             mainCamera = Camera.main;
