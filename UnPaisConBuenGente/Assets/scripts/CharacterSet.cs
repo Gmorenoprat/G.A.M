@@ -77,7 +77,7 @@ public class CharacterSet : MonoBehaviour
             //GameObject.Destroy(currentWeapon.gameObject);
             try
             {
-                ActivarDesactivarBuitre(true);
+                ActivarDesactivarBuitre(!buitre.gameObject.activeSelf);
             }
             catch
             {
