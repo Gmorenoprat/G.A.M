@@ -53,6 +53,6 @@ public class NestorCloud : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        
+        GameObject.Destroy(this.gameObject,1);
     }
 }

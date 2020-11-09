@@ -5,21 +5,36 @@ using UnityEngine;
 public class WeaponSet : MonoBehaviour
 {
     public GameObject bullet, bulletSpawn;
-    public float ammo;
+    public float ammo, alturaSpawn;
     public string commandShoot;
+    public bool teledirigido = false;
+    Vector3 mousePosInWorld;
 
     public void Shoot(float shootForce)
     {
         if(ammo >= 1)
         {
             GameObject newBullet = GameObject.Instantiate(bullet);
-            if(newBullet.GetComponent<bulletSet>() != null)
+            if (newBullet.GetComponent<bulletSet>() != null)
             {
-                bulletSet bulls = newBullet.GetComponent<bulletSet>();
-                newBullet.transform.position = bulletSpawn.transform.position;
-                newBullet.transform.up = this.transform.up;
-                bulls.shootForce = shootForce;
-                ammo--;
+                if(teledirigido == true)
+                {
+                    bulletSet fals = newBullet.GetComponent<bulletSet>();
+                    mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    Vector3 falconSpawnPos = new Vector3(mousePosInWorld.x, mousePosInWorld.y + alturaSpawn, 0);
+                    newBullet.transform.position = falconSpawnPos;
+                    newBullet.transform.up = mousePosInWorld - falconSpawnPos;
+                    fals.shootForce = shootForce;
+                    ammo--;
+                }
+                else if (teledirigido == false)
+                {
+                    bulletSet bulls = newBullet.GetComponent<bulletSet>();
+                    newBullet.transform.position = bulletSpawn.transform.position;
+                    newBullet.transform.up = this.transform.up;
+                    bulls.shootForce = shootForce;
+                    ammo--;
+                }
             } 
             else if (newBullet.GetComponent<granada>() != null)
             {
@@ -44,7 +59,14 @@ public class WeaponSet : MonoBehaviour
                 bulls.shootForce = shootForce;
                 ammo--;
             }
-
+            else if(newBullet.tag=="Domo" && teledirigido == true)
+            {
+                mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Vector3 falconSpawnPos = new Vector3(mousePosInWorld.x, mousePosInWorld.y + alturaSpawn, 0);
+                newBullet.transform.position = falconSpawnPos;
+                newBullet.transform.up = gameObject.GetComponentInParent<CharacterSet>().transform.up *-1;
+                ammo--;
+            }
 
             Camera.main.GetComponent<CameraFollowScript>().SetFollow(newBullet);
         }

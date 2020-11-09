@@ -29,7 +29,6 @@ public class CharacterSet : MonoBehaviour
 
         currentWeapon = GameObject.Instantiate(arrayWeapons[0]);
         currentWeapon.transform.position = weaponSpawn.transform.position;
-        currentWeapon.transform.up = this.transform.up;
         currentWeapon.transform.parent = this.transform;
     }
 

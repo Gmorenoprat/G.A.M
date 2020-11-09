@@ -14,6 +14,7 @@ public class Choripan : MonoBehaviour
     private float timeToFade = 2f;
     private float timeToDestroy = 2f;
 
+    public int makeDaño, giveVida;
     public int damage = 20;
 
     // Start is called before the first frame update
@@ -48,14 +49,14 @@ public class Choripan : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-         if (collision.gameObject.layer == 15) //gorila
+         if (collision.gameObject.layer == makeDaño) //daño
          {
             
             collision.gameObject.GetComponent<DestroyableComp>().getDamage(damage);
 
             GameObject.Destroy(this.gameObject);
          }
-        if(collision.gameObject.layer == 14) //pinguino
+        if(collision.gameObject.layer == giveVida) //vida
         {
             
             collision.gameObject.GetComponent<DestroyableComp>().getHealth(damage);
