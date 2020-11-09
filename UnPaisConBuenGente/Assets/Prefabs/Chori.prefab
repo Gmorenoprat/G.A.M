@@ -121,7 +121,7 @@ MonoBehaviour:
   eatSound: {fileID: 0}
   splatSound: {fileID: -2351561839902936388}
   rb: {fileID: -8732442274715023301}
-  durationTime: 4
+  durationTime: 5
   "makeDa\xF1o": 15
   giveVida: 14
   damage: 20

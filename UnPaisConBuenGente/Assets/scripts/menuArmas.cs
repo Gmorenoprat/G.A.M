@@ -39,6 +39,25 @@ public class menuArmas : MonoBehaviour
             case "Juana la dama":
                 activarSP("BotellaMolotov");
                 break;
+            case "Albertito":
+                activarSP("Domo");
+                break;  
+            case "50Centurion":
+                activarSP("Falcon");
+                break;  
+            case "Del Faso":
+                activarSP("Mortero");
+                break;  
+            case "Laremassa":
+                activarSP("Botella");
+                break;  
+            case "D-Alegria":
+                activarSP("PinguinosProtestantes");
+                break;  
+            case "El Pelonchas":
+                activarSP("Micheti");
+                break;
+
         }
     }
 

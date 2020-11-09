@@ -22,7 +22,6 @@ public class TurnMananger : MonoBehaviour
     public menuArmas menu_armas;
 
 
-
     private void Start()
     {
         

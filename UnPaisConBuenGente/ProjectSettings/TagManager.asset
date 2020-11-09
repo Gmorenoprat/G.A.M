@@ -18,16 +18,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Terreno
+  - TerrenoDestruido
+  - Explotion
+  - Player
+  - Bullet
+  - UI
+  - Pinguino
+  - Gorila
+  - Muerte
+  - Granada
   - 
   - 
   - 
@@ -45,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UIARMAS
+    uniqueID: 3023942009
     locked: 0
