@@ -4,17 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - ExplosionFX
-  - ground
-  - Obstacle
-  - Bullet
-  - Explosion
-  - HealthBar
-  - floor
-  - BombPickup
-  - Sky
+  - SpotGenerator
   - Domo
+  - floor
+  - Sky
+  - Buitre
   layers:
   - Default
   - TransparentFX
@@ -24,16 +18,16 @@ TagManager:
   - UI
   - 
   - 
-  - Terreno
-  - TerrenoDestruido
-  - Explotion
-  - player
-  - bullet
-  - UI
-  - Pinguino
-  - Gorila
-  - muerte
-  - granada
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -51,7 +45,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Top
-    uniqueID: 238012857
     locked: 0

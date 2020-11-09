@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
 
     public GameObject randomSpots;
 
-    public float buitreCont;
 
 
     void Start()
@@ -54,20 +53,8 @@ public class PlayerController : MonoBehaviour
             controller.Jump();
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            buitreCont = 10;
-        }
-
-        if (buitreCont > 0)
-        {
-            if (Input.GetButtonDown(commandJump))
-            {
-                controller.rb.velocity = Vector3.zero;
-                controller.rb.AddForce(Vector3.up * controller.jumpForce * controller.rb.gravityScale * controller.rb.mass, ForceMode2D.Impulse);
-                buitreCont--;
-            }
-        }
+     
+      
 
         if (Input.GetButton(commandShoot))
         {
@@ -90,6 +77,7 @@ public class PlayerController : MonoBehaviour
             yaSeDisparo();
             //desactivar movimiento? testear...
             this.enabled = false;
+            controller.enabled = false;
         }
 
         flipRenderer((mouseWorldPosition - transform.position).x <= 0);
@@ -99,6 +87,7 @@ public class PlayerController : MonoBehaviour
     public void yaSeDisparo()
     {
         yaDisparo = true;
+        controller.ActivarDesactivarBuitre(false);
     }
 
     public void flipRenderer(bool flip)

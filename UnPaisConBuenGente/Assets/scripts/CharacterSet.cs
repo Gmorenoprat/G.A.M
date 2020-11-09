@@ -17,6 +17,7 @@ public class CharacterSet : MonoBehaviour
     public TextMeshPro nombreCharacter;
 
     public GameObject[] arrayWeapons;
+    public Buitre buitre;
 
     void Start()
     {
@@ -73,8 +74,15 @@ public class CharacterSet : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            GameObject.Destroy(currentWeapon.gameObject);
-            InvokeWeapon(4);
+            //GameObject.Destroy(currentWeapon.gameObject);
+            try
+            {
+                ActivarDesactivarBuitre(true);
+            }
+            catch
+            {
+                Debug.Log("BuitreNotFOund");
+            }
         }
     }
 
@@ -84,6 +92,12 @@ public class CharacterSet : MonoBehaviour
         currentWeapon.transform.position = weaponSpawn.transform.position;
         currentWeapon.transform.up = this.transform.up;
         currentWeapon.transform.parent = this.transform;
+    }
+
+    public void ActivarDesactivarBuitre(bool activar)
+    {
+        if (!buitre) return;
+        buitre.gameObject.SetActive(activar);//!buitre.gameObject.activeSelf);
     }
 
     public void Die()
