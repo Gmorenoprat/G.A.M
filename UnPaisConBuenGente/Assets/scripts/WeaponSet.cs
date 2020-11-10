@@ -9,6 +9,16 @@ public class WeaponSet : MonoBehaviour
     public string commandShoot;
     public bool teledirigido = false;
     Vector3 mousePosInWorld;
+    Vector3 mouseWorldPosition;
+    Vector3 mousePosition;
+
+    public void Update()
+    {
+        mousePosition = Input.mousePosition;
+        mousePosition.z = 100;
+        mouseWorldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        mouseWorldPosition.z = 0;
+    }
 
     public void Shoot(float shootForce)
     {
@@ -65,6 +75,23 @@ public class WeaponSet : MonoBehaviour
                 Vector3 falconSpawnPos = new Vector3(mousePosInWorld.x, mousePosInWorld.y + alturaSpawn, 0);
                 newBullet.transform.position = falconSpawnPos;
                 newBullet.transform.up = gameObject.GetComponentInParent<CharacterSet>().transform.up *-1;
+                ammo--;
+            }
+            else if (newBullet.GetComponent<Botella>() != null)
+            {
+                newBullet.transform.position = bulletSpawn.transform.position;
+                newBullet.transform.up = this.transform.up;
+                ammo--;
+            }
+            else if (newBullet.GetComponent<Manifestantes>() != null)
+            {
+                newBullet.transform.position = bulletSpawn.transform.position;
+                newBullet.transform.up = gameObject.GetComponentInParent<CharacterSet>().transform.up;
+                if ((mouseWorldPosition - transform.position).x <= 0)
+                {
+                    newBullet.GetComponent<Manifestantes>().direction = -1;
+                }
+                else newBullet.GetComponent<Manifestantes>().direction = 1;
                 ammo--;
             }
 
