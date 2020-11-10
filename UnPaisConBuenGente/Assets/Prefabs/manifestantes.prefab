@@ -1728,7 +1728,7 @@ MonoBehaviour:
   jumpTime: 1.5
   direction: 0
   commandShoot: Fire1
-  explotionRad: {fileID: 5072509838758398997, guid: bd01f0a419f36094bb675acc57cb8452,
+  explotionRad: {fileID: 5072509838758398997, guid: 21d12081df102e643a6d8cdf069b8a22,
     type: 3}
   spawn: {fileID: 3322347127751736732}
   explotionAnim: {fileID: 104408115516464467, guid: c11f94e0c10d1ba4290621b7ce73fadd,
