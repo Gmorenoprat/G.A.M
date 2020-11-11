@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,9 +30,15 @@ public class PlayerController : MonoBehaviour
         spriteRend = this.GetComponent<SpriteRenderer>();
         controller = this.GetComponent<CharacterSet>();
 
-        randomSpots = GameObject.FindGameObjectsWithTag("SpotGenerator")[0];
-        RandomSpotSpawnHorizontal randoms = randomSpots.GetComponent<RandomSpotSpawnHorizontal>();
-        this.transform.position = randoms.getSpawn();
+        try
+        {
+            randomSpots = GameObject.FindGameObjectsWithTag("SpotGenerator")[0];
+            RandomSpotSpawnHorizontal randoms = randomSpots.GetComponent<RandomSpotSpawnHorizontal>();
+            this.transform.position = randoms.getSpawn();
+        }
+        catch { Debug.Log("NoHaySpawner"); }
+       
+
         if (mainCamera == null)
         {
             mainCamera = Camera.main;

@@ -19,6 +19,9 @@ public class RandomSpotSpawnHorizontal : MonoBehaviour
         positionSpawns.Add(new Vector3(5f, 2.5f, 0f));
         positionSpawns.Add(new Vector3(9.5f, 10.5f, 0f));
         positionSpawns.Add(new Vector3(15.5f, 5.5f, 0f));
+
+        //fixRapido
+        Destroy(this.gameObject, 2f);
     }
 
     public Vector3 getSpawn()
