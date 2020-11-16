@@ -111,11 +111,13 @@ public class TurnMananger : MonoBehaviour
     {
         foreach(GameObject character in player1Characters) {
             if (!character) continue; // { player1Characters.RemoveAt(player1Characters.IndexOf(character)); continue; }
+            character.GetComponent<Animator>().SetFloat("walk speed", 0); 
             character.GetComponent<PlayerController>().enabled = false;
             character.GetComponent<CharacterSet>().enabled = false;
         }
         foreach(GameObject character in player2Characters) {
             if (!character) continue;
+            character.GetComponent<Animator>().SetFloat("walk speed", 0);
             character.GetComponent<PlayerController>().enabled = false;
             character.GetComponent<CharacterSet>().enabled = false;
         }

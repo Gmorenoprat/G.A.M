@@ -836,16 +836,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1611208260, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 6.746916
+      value: -0.17999999
       objectReference: {fileID: 0}
     - target: {fileID: 1611208260, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 4.6384573
+      value: 2.6800005
       objectReference: {fileID: 0}
     - target: {fileID: 1611208260, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 7116710840901325394}
+    - target: {fileID: 233474116115056574, guid: a2e5c15806ff76c419ec8501657bdb63,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8243385649037028881, guid: a2e5c15806ff76c419ec8501657bdb63,
         type: 3}
       propertyPath: m_Name
