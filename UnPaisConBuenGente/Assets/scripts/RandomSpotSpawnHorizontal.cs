@@ -6,7 +6,7 @@ public class RandomSpotSpawnHorizontal : MonoBehaviour
 {
     public List<Vector3> positionSpawns;
 
-    private void Start()
+    private void Awake()
     {
         positionSpawns.Add(new Vector3(-45.5f, 8.30f, 0f));
         positionSpawns.Add(new Vector3(-40f,  0f, 0f));

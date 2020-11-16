@@ -24,12 +24,8 @@ public class PlayerController : MonoBehaviour
     public GameObject randomSpots;
 
 
-
-    void Start()
+    private void Awake()
     {
-        spriteRend = this.GetComponent<SpriteRenderer>();
-        controller = this.GetComponent<CharacterSet>();
-
         try
         {
             randomSpots = GameObject.FindGameObjectsWithTag("SpotGenerator")[0];
@@ -37,6 +33,14 @@ public class PlayerController : MonoBehaviour
             this.transform.position = randoms.getSpawn();
         }
         catch { Debug.Log("NoHaySpawner"); }
+    }
+
+    void Start()
+    {
+        spriteRend = this.GetComponent<SpriteRenderer>();
+        controller = this.GetComponent<CharacterSet>();
+
+
        
 
         if (mainCamera == null)
