@@ -78,7 +78,7 @@ public class TurnMananger : MonoBehaviour
             try
             {activarCharacter(player2Characters[posB]);}
             catch
-            {player2Characters.RemoveAt(posB); esPlayer1 = !esPlayer1;}
+            {player2Characters.RemoveAt(posB);}
 
         }
         if (!esPlayer1)
@@ -89,7 +89,7 @@ public class TurnMananger : MonoBehaviour
             try
             { activarCharacter(player1Characters[posA]);}
             catch
-            {player1Characters.RemoveAt(posA); esPlayer1 = !esPlayer1;}
+            {player1Characters.RemoveAt(posA);}
         }
 
         esPlayer1 = !esPlayer1;
