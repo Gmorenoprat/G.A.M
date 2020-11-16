@@ -44,10 +44,7 @@ public class CharacterSet : MonoBehaviour
             MainSprite.flipX = false;
         }
 
-        if (destroyable.life <= 0)
-        {
-            GameObject.Destroy(this.gameObject);
-        }
+       
 
         Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
         Anim_Pinguin.SetFloat("jump", rb.velocity.y);
@@ -103,6 +100,7 @@ public class CharacterSet : MonoBehaviour
     public void Die()
     {
         Anim_Pinguin.Play("die");
+        FindObjectOfType<conditionWiner>().lifeDown(gameObject);
         GameObject.Destroy(this.gameObject);
     }
 

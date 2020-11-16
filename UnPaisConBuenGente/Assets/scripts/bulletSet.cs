@@ -12,7 +12,9 @@ public class bulletSet : MonoBehaviour
     public GameObject explotionAnim;
     SpriteRenderer bulletSprite;
     public bool thisMolo;
-    public GameObject spawn1, spawn2, spawn3, spawn4, spawn5;
+    public GameObject[] spawns;
+    public List<GameObject> explotions;
+
 
     private void Start()
     {
@@ -48,28 +50,21 @@ public class bulletSet : MonoBehaviour
             //GameObject newExplotionAnim = GameObject.Instantiate(explotionAnim);
             //newExplotionAnim.transform.position = this.transform.position;
 
-            GameObject newExplotion = GameObject.Instantiate(explotionRad);
-            newExplotion.transform.position = spawn1.transform.position;
+            for(int i = 0; i < spawns.Length; i++)
+            {
+                GameObject newExplotion = GameObject.Instantiate(explotionRad);
+                newExplotion.transform.position = spawns[i].transform.position;
+                explotions.Add(newExplotion);
+            }
 
-            GameObject newExplotion2 = GameObject.Instantiate(explotionRad);
-            newExplotion2.transform.position = spawn2.transform.position;
-
-            GameObject newExplotion3 = GameObject.Instantiate(explotionRad);
-            newExplotion3.transform.position = spawn3.transform.position;
-
-            GameObject newExplotion4 = GameObject.Instantiate(explotionRad);
-            newExplotion4.transform.position = spawn3.transform.position;
-
-            GameObject newExplotion5 = GameObject.Instantiate(explotionRad);
-            newExplotion5.transform.position = spawn3.transform.position;
 
             exp = true;
             GameObject.Destroy(this.gameObject, 0.2f);
-            GameObject.Destroy(newExplotion.gameObject, 2f);
-            GameObject.Destroy(newExplotion2.gameObject, 2f);
-            GameObject.Destroy(newExplotion3.gameObject, 2f);
-            GameObject.Destroy(newExplotion4.gameObject, 2f);
-            GameObject.Destroy(newExplotion5.gameObject, 2f);
+
+            foreach(GameObject explotion in explotions)
+            {
+                GameObject.Destroy(explotion.gameObject, 2f);
+            }
         }
     }
 }

@@ -219,11 +219,13 @@ MonoBehaviour:
   explotionAnim: {fileID: 104408115516464467, guid: 1a55943de60543c4fab227bf664392a6,
     type: 3}
   thisMolo: 1
-  spawn1: {fileID: 4992738496057076412}
-  spawn2: {fileID: 6718890610609161359}
-  spawn3: {fileID: 7470478089741936130}
-  spawn4: {fileID: 6409089276303787543}
-  spawn5: {fileID: 4571658417045804479}
+  spawns:
+  - {fileID: 4992738496057076412}
+  - {fileID: 6718890610609161359}
+  - {fileID: 7470478089741936130}
+  - {fileID: 6409089276303787543}
+  - {fileID: 4571658417045804479}
+  explotions: []
 --- !u!70 &8785500891377614677
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
