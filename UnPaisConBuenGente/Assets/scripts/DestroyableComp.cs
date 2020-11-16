@@ -15,10 +15,13 @@ public class DestroyableComp : MonoBehaviour
         {
             getDamage( Destructor.damage );
         }
+    }
+
+    public void Update()
+    {
         if (life <= 0)
         {
-            GameObject.Destroy(this.gameObject);
-            FindObjectOfType<conditionWiner>().lifeDown(gameObject);
+            this.gameObject.GetComponent<CharacterSet>().Die();
         }
     }
 

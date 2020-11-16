@@ -14,6 +14,8 @@ public class Manifestantes : MonoBehaviour
     public GameObject explotionRad,spawn;
     public GameObject explotionAnim;
 
+    public List<SpriteRenderer> pingusSpriteRend;
+
     // Start is called before the first frame update
     void Start()
     {
