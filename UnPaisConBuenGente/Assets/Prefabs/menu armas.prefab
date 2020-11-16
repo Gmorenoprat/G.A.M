@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319023656028943300}
-  m_LocalRotation: {x: -0, y: -0, z: 0.45882237, w: -0.8885281}
-  m_LocalPosition: {x: 4.05, y: -0.36000037, z: 0}
-  m_LocalScale: {x: 0.44522586, y: 0.5406559, z: 1.6129034}
+  m_LocalRotation: {x: -0, y: -0, z: 0.40012065, w: -0.91646254}
+  m_LocalPosition: {x: 4.010999, y: -0.38799974, z: 0}
+  m_LocalScale: {x: 0.44522586, y: 0.5260582, z: 1.6129034}
   m_Children: []
   m_Father: {fileID: 2462490945714352082}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -54.622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -47.171}
 --- !u!212 &5693800979076475552
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -104,13 +104,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718870595534453166}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.08, y: -0.29, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 4.08, y: -0.28999984, z: 0}
   m_LocalScale: {x: 0.124426804, y: 0.14410767, z: 0.21867633}
   m_Children: []
   m_Father: {fileID: 2462490945714352082}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &2801999075021073296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 9207855289295950203}
   - component: {fileID: 2886119372321046793}
   m_Layer: 0
-  m_Name: Botella
+  m_Name: BotellaPanquecuarius
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -505,7 +505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3301151304100115666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8, y: -0.5, z: 0}
+  m_LocalPosition: {x: 7.8, y: -1.34, z: 0}
   m_LocalScale: {x: 0.3870968, y: 0.4806452, z: 1.6129034}
   m_Children: []
   m_Father: {fileID: 2462490945714352082}
@@ -556,6 +556,86 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 6.6400003, y: 4.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &4473299940961456031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8370809615962712344}
+  - component: {fileID: 6142322916056839017}
+  m_Layer: 0
+  m_Name: PinguinosManifestantesCabeza
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8370809615962712344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473299940961456031}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.09525, y: -0.9237835, z: 0}
+  m_LocalScale: {x: 2.825713, y: 2.9761155, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2462490945714352082}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6142322916056839017
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473299940961456031}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 54923160c1b1a9d45aa2b55012eb492f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.6, y: 0.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1129,6 +1209,7 @@ Transform:
   - {fileID: 9207855289295950203}
   - {fileID: 133199643568718958}
   - {fileID: 2505197102091560137}
+  - {fileID: 8370809615962712344}
   - {fileID: 4652447371461581629}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1291,12 +1372,14 @@ MonoBehaviour:
     Imagen: {fileID: 5693800979076475552}
   - Nombre: BotellaMolotov
     Imagen: {fileID: 7485043979498508776}
-  - Nombre: Botella
+  - Nombre: BotellaPanquecuarius
     Imagen: {fileID: 2886119372321046793}
   - Nombre: Falcon
     Imagen: {fileID: 1083991153746830104}
   - Nombre: Micheti
     Imagen: {fileID: 990540268948219687}
+  - Nombre: PinguinosManifestantes
+    Imagen: {fileID: 6142322916056839017}
   nombreChar: {fileID: 322419668656790067}
 --- !u!1 &6754199739750355542
 GameObject:
@@ -1323,11 +1406,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6754199739750355542}
   m_LocalRotation: {x: -0, y: -0, z: 0.70858556, w: -0.7056249}
-  m_LocalPosition: {x: 4.05, y: -0.38, z: 0}
-  m_LocalScale: {x: 0.10781572, y: 0.07915732, z: 0.21867633}
+  m_LocalPosition: {x: 3.994, y: -0.38, z: 0}
+  m_LocalScale: {x: 0.10781572, y: 0.07638682, z: 0.21867633}
   m_Children: []
   m_Father: {fileID: 2462490945714352082}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.240005}
 --- !u!212 &1083991153746830104
 SpriteRenderer:
@@ -1403,7 +1486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6939076496484677172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.21, y: -0.297, z: 0}
+  m_LocalPosition: {x: 4.03, y: -0.24, z: 0}
   m_LocalScale: {x: 1.9191206, y: 1.5061314, z: 0.21867633}
   m_Children: []
   m_Father: {fileID: 2462490945714352082}

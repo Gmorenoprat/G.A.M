@@ -49,10 +49,10 @@ public class menuArmas : MonoBehaviour
                 activarSP("Mortero");
                 break;  
             case "Laremassa":
-                activarSP("Botella");
+                activarSP("BotellaPanquecuarius");
                 break;  
             case "D-Alegria":
-                activarSP("PinguinosProtestantes");
+                activarSP("PinguinosManifestantes");
                 break;  
             case "El Pelonchas":
                 activarSP("Micheti");
