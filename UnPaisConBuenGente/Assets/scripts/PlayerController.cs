@@ -40,9 +40,6 @@ public class PlayerController : MonoBehaviour
         spriteRend = this.GetComponent<SpriteRenderer>();
         controller = this.GetComponent<CharacterSet>();
 
-
-       
-
         if (mainCamera == null)
         {
             mainCamera = Camera.main;
@@ -63,10 +60,7 @@ public class PlayerController : MonoBehaviour
         {
             controller.Jump();
         }
-
-     
       
-
         if (Input.GetButton(commandShoot))
         {
             if(shootForce <= 20)
@@ -74,8 +68,11 @@ public class PlayerController : MonoBehaviour
                 shootForce += Time.deltaTime * 18;
             }
 
-            energia.gameObject.SetActive(true);
-            energia.transform.localScale = new Vector3(shootForce/40, 0.4f, 0.5f);
+            if(controller.currentWeapon.GetComponent<WeaponSet>().noChargable == false)
+            {
+                energia.gameObject.SetActive(true);
+                energia.transform.localScale = new Vector3(shootForce / 40, 0.4f, 0.5f);
+            }
         }
 
         if (Input.GetButtonUp(commandShoot))

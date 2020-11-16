@@ -8,6 +8,7 @@ public class WeaponSet : MonoBehaviour
     public float ammo, alturaSpawn;
     public string commandShoot;
     public bool teledirigido = false;
+    public bool noChargable = false;
     Vector3 mousePosInWorld;
     Vector3 mouseWorldPosition;
     Vector3 mousePosition;
@@ -97,5 +98,6 @@ public class WeaponSet : MonoBehaviour
 
             Camera.main.GetComponent<CameraFollowScript>().SetFollow(newBullet);
         }
+        ammo++;
     }
 }

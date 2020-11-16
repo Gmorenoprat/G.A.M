@@ -97,7 +97,10 @@ MonoBehaviour:
   bullet: {fileID: 3916623103010835407, guid: 1b5cf0fb4fa150c449a5246608603d88, type: 3}
   bulletSpawn: {fileID: 6230888193016041900}
   ammo: 1
+  alturaSpawn: 0
   commandShoot: Fire1
+  teledirigido: 0
+  noChargable: 1
 --- !u!1 &6230888193016041900
 GameObject:
   m_ObjectHideFlags: 0
