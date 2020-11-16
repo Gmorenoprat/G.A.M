@@ -9,6 +9,7 @@ TagManager:
   - floor
   - Sky
   - Buitre
+  - Mira
   layers:
   - Default
   - TransparentFX

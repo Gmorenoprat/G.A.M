@@ -9,21 +9,36 @@ public class Botella : MonoBehaviour
     static public Vector3 mousePositionInWorld;
     public float durationTime = 4.5f;
     private Color alphaColor;
-    private float timeToFade = 2f;
+    private float timeToFade = 5f;
     private float timeToDestroy = 2f;
-    public int damage = 20;
+    public int damage = 2 ;
+
+    public int makeDaño = 14;
+
+    public GameObject mira;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        this.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+
+        mira = GameObject.FindWithTag("Mira");
+        mira.GetComponent<Mira>().desactivarPorSegundos(durationTime);
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         mousePositionInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePositionInWorld.z = 0;
+
+        picked = true;
 
         if (picked == true)
         {
@@ -54,6 +69,7 @@ public class Botella : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.layer != makeDaño) return; //daño
         collision.gameObject.GetComponent<DestroyableComp>().getDamage(damage);
     }
 }

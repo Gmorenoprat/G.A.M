@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Boton_Menus : MonoBehaviour
 {
+    public void Start()
+    {
+        Cursor.visible = true;
+    }
     public void ClickInBoton(string scene)
     {
         SceneManager.LoadScene(scene);
