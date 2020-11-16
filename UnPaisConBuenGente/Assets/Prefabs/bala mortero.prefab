@@ -168,7 +168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: d42fda484fe847048831eae768dad9cc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16744da6764b87f4882e6669e35521e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shootForce: 8
   rb: {fileID: 0}
-  explotionRad: {fileID: 5166590158531624986, guid: 7cf40fb00956a084f917e9a0249cdd2f,
+  explotionRad: {fileID: 5166590158531624986, guid: 8322122eb17b8b64aa8d08c0fc69a433,
     type: 3}
   explotionAnim: {fileID: 104408115516464467, guid: 1a55943de60543c4fab227bf664392a6,
     type: 3}
