@@ -16,6 +16,7 @@ public class Botella : MonoBehaviour
     public int makeDaño = 14;
 
     public GameObject mira;
+    public AudioSource pow;
 
     // Start is called before the first frame update
 
@@ -71,5 +72,6 @@ public class Botella : MonoBehaviour
     {
         if (collision.gameObject.layer != makeDaño) return; //daño
         collision.gameObject.GetComponent<DestroyableComp>().getDamage(damage);
+        pow.Play(0);
     }
 }
