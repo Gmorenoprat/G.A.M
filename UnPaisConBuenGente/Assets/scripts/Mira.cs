@@ -29,9 +29,9 @@ public class Mira : MonoBehaviour
     }
     public IEnumerator desactivarPorSegundosCoroutine(float segundos)
     {
-        spMira.enabled = false;
+        spMira.color = new Color(0, 0, 0, 0);
         yield return new WaitForSeconds(segundos);
-        spMira.enabled = true;
+        spMira.color = new Color(255, 255, 255, 255);
         yield break;
     }
 }

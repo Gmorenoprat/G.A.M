@@ -137,7 +137,7 @@ MonoBehaviour:
   picked: 0
   rb: {fileID: 0}
   durationTime: 4.5
-  damage: 2
+  damage: 5
   "makeDa\xF1o": 14
   mira: {fileID: 0}
   pow: {fileID: -4727776763818913772}
