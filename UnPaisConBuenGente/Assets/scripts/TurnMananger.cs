@@ -54,21 +54,21 @@ public class TurnMananger : MonoBehaviour
                 if (timeEspera <= 0)
                 {
                     cambiarTurno();
-                    timeEspera = 5f;
                 }
             }
         }
-        else { timeEspera = 5f;  cambiarTurno(); }
+        else { cambiarTurno(); }
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             cambiarTurno();
         }
     }
-
+     
     private void cambiarTurno()
     {
         if (fondo != null) fondo.ChangeRandomDirectionSpeed();
         desactivarCharacters();
+        timeEspera = 5f;
 
         //si esPlayer1 lo desactiva (pasa turno)
         if (esPlayer1)
@@ -78,7 +78,7 @@ public class TurnMananger : MonoBehaviour
             try
             {activarCharacter(player2Characters[posB]);}
             catch
-            {player2Characters.RemoveAt(posB);}
+            {player2Characters.RemoveAt(posB); esPlayer1 = !esPlayer1;}
 
         }
         if (!esPlayer1)
@@ -89,7 +89,7 @@ public class TurnMananger : MonoBehaviour
             try
             { activarCharacter(player1Characters[posA]);}
             catch
-            {player1Characters.RemoveAt(posA);}
+            {player1Characters.RemoveAt(posA); esPlayer1 = !esPlayer1;}
         }
 
         esPlayer1 = !esPlayer1;
