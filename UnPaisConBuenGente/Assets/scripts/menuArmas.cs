@@ -16,7 +16,7 @@ public class menuArmas : MonoBehaviour
 
     public TextMeshPro nombreChar;
 
-    private void Start()
+    private void Awake()
     {
         desactivarSPS();
     }
