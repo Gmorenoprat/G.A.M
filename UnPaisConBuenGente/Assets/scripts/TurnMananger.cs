@@ -8,6 +8,7 @@ public class TurnMananger : MonoBehaviour
 {
     public List<GameObject> player1Characters;
     public List<GameObject> player2Characters;
+    public List<GameObject> players;
 
     public GameObject activeCharacter;
 
@@ -21,10 +22,10 @@ public class TurnMananger : MonoBehaviour
     public Fondo_loop fondo;
     public menuArmas menu_armas;
 
+    public int turnCount=0;
 
     private void Start()
     {
-        
          desactivarCharacters();
 
         posA = Random.Range(0, player1Characters.Count);
@@ -42,14 +43,14 @@ public class TurnMananger : MonoBehaviour
             activarCharacter(player2Characters[posB]);
             esPlayer1 = false;
         }
-
     }
 
     private void Update()
     {
         if (activeCharacter != null)
         {
-            if(activeCharacter.GetComponent<PlayerController>().yaDisparo == true) { 
+            if(activeCharacter.GetComponent<PlayerController>().yaDisparo == true)
+            { 
                 timeEspera -= Time.deltaTime;
                 if (timeEspera <= 0)
                 {
@@ -58,14 +59,24 @@ public class TurnMananger : MonoBehaviour
             }
         }
         else { cambiarTurno(); }
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             cambiarTurno();
         }
     }
      
-    private void cambiarTurno()
+    public void cambiarTurno()
     {
+        turnCount++;
+
+        players.Clear();
+        players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        foreach(GameObject player in players)
+        {
+            player.GetComponent<SpecialCoolDown>().coolDown--;
+        }
+
         if (fondo != null) fondo.ChangeRandomDirectionSpeed();
         desactivarCharacters();
         timeEspera = 5f;
@@ -93,12 +104,11 @@ public class TurnMananger : MonoBehaviour
         }
 
         esPlayer1 = !esPlayer1;
-
-        
     }
 
 
-    private void activarCharacter(GameObject character) {
+    private void activarCharacter(GameObject character) 
+    {
         character.GetComponent<PlayerController>().enabled = true;
         character.GetComponent<CharacterSet>().enabled = true;
         activeCharacter = character;
@@ -106,7 +116,7 @@ public class TurnMananger : MonoBehaviour
         setCamera(character);
         string charName = character.GetComponent<CharacterSet>().nombreCharacter.text;
         menu_armas.SetSpecialHability(charName); //nombreDelCharacter
-       }
+    }
     private void desactivarCharacters()
     {
         foreach(GameObject character in player1Characters) {

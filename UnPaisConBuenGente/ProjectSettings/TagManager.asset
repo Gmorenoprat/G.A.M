@@ -10,6 +10,7 @@ TagManager:
   - Sky
   - Buitre
   - Mira
+  - Manager
   layers:
   - Default
   - TransparentFX

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8551172305774163220}
   m_Layer: 0
   m_Name: TurnMananger
-  m_TagString: Untagged
+  m_TagString: Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,3 +62,4 @@ MonoBehaviour:
   timeEspera: 5
   fondo: {fileID: 0}
   menu_armas: {fileID: 0}
+  turnCount: 0
