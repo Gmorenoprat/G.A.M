@@ -14,9 +14,10 @@ public class SpecialCoolDown : MonoBehaviour
 
     void Update()
     {
-        if(coolDown <= 0)
+        if (coolDown <= 0)
         {
             gameObject.GetComponent<CharacterSet>().permission = true;
         }
     }
+
 }

@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4706532308855303529}
-  - component: {fileID: 3950933545625244939}
   - component: {fileID: 6845714799326349230}
   - component: {fileID: 6358870712308047781}
   - component: {fileID: 6168432953768664643}
   - component: {fileID: 834377928587205815}
+  - component: {fileID: 107186129374966323}
   m_Layer: 10
   m_Name: explosion 2BIG
   m_TagString: Untagged
@@ -29,28 +29,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5072509838758398997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.42, y: 3.65, z: -5.158203}
+  m_LocalPosition: {x: 10.05, y: 10.08, z: -5.158203}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &3950933545625244939
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5072509838758398997}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.015458107}
-  serializedVersion: 2
-  m_Radius: 4.1710796
 --- !u!50 &6845714799326349230
 Rigidbody2D:
   serializedVersion: 4
@@ -197,3 +181,19 @@ MonoBehaviour:
   forceExplotion: 2000
   radius: 5
   upliftModifer: 500
+--- !u!70 &107186129374966323
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5072509838758398997}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.23126078, y: 0}
+  m_Size: {x: 7.9249825, y: 14.399954}
+  m_Direction: 0

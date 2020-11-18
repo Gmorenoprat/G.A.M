@@ -48,8 +48,6 @@ public class CharacterSet : MonoBehaviour
             MainSprite.flipX = false;
         }
 
-       
-
         Anim_Pinguin.SetFloat("walk speed", Mathf.Abs(horizontal));
         Anim_Pinguin.SetFloat("jump", rb.velocity.y);
 
@@ -76,8 +74,9 @@ public class CharacterSet : MonoBehaviour
                 InvokeWeapon(3);
             }
             else
-                Debug.Log("todavia faltan" + gameObject.GetComponent<SpecialCoolDown>().coolDown + "turnos"+nombreCharacter.text);
-            
+            {
+                Debug.Log("todavia faltan " + gameObject.GetComponent<SpecialCoolDown>().coolDown + " turnos, " + nombreCharacter.text);
+            }
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {

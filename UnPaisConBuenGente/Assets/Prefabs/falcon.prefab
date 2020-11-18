@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6417647912907114453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.532, y: 28.114, z: 0}
+  m_LocalPosition: {x: 9.65, y: 29.95, z: 0}
   m_LocalScale: {x: 0.25454003, y: 0.25454003, z: 0.25454003}
   m_Children: []
   m_Father: {fileID: 0}
@@ -124,11 +124,8 @@ MonoBehaviour:
   explotionAnim: {fileID: 104408115516464467, guid: c11f94e0c10d1ba4290621b7ce73fadd,
     type: 3}
   thisMolo: 0
-  spawn1: {fileID: 0}
-  spawn2: {fileID: 0}
-  spawn3: {fileID: 0}
-  spawn4: {fileID: 0}
-  spawn5: {fileID: 0}
+  spawns: []
+  explotions: []
 --- !u!70 &8785500891377614677
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
