@@ -43,6 +43,8 @@ public class TurnMananger : MonoBehaviour
             activarCharacter(player2Characters[posB]);
             esPlayer1 = false;
         }
+
+        players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
     }
 
     private void Update()
@@ -69,11 +71,10 @@ public class TurnMananger : MonoBehaviour
     public void cambiarTurno()
     {
         turnCount++;
-
-        players.Clear();
-        players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        //resta un turno al cooldown de cada personaje
         foreach(GameObject player in players)
         {
+            if(player != null)
             player.GetComponent<SpecialCoolDown>().coolDown--;
         }
 

@@ -19,6 +19,8 @@ public class CharacterSet : MonoBehaviour
     public GameObject[] arrayWeapons;
     public Buitre buitre;
 
+    public bool permission;
+
     void Start()
     {
         MainSprite = this.GetComponent<SpriteRenderer>();
@@ -31,6 +33,8 @@ public class CharacterSet : MonoBehaviour
         currentWeapon = GameObject.Instantiate(arrayWeapons[0]);
         currentWeapon.transform.position = weaponSpawn.transform.position;
         currentWeapon.transform.parent = this.transform;
+
+        permission = false;
     }
 
     public void Update()
@@ -66,12 +70,17 @@ public class CharacterSet : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
-            GameObject.Destroy(currentWeapon.gameObject);
-            InvokeWeapon(3);
+            if (permission == true)
+            {
+                GameObject.Destroy(currentWeapon.gameObject);
+                InvokeWeapon(3);
+            }
+            else
+                Debug.Log("todavia faltan" + gameObject.GetComponent<SpecialCoolDown>().coolDown + "turnos"+nombreCharacter.text);
+            
         }
         if (Input.GetKeyDown(KeyCode.Alpha5))
         {
-            //GameObject.Destroy(currentWeapon.gameObject);
             try
             {
                 ActivarDesactivarBuitre(!buitre.gameObject.activeSelf);
@@ -129,7 +138,7 @@ public class CharacterSet : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "floor")
+        if (collision.gameObject.tag == "floor" || collision.gameObject.tag == "Player")
         {
             avJump = maxJump;
             onAir = false;

@@ -101,6 +101,7 @@ MonoBehaviour:
   commandShoot: Fire1
   teledirigido: 0
   noChargable: 1
+  isUlti: 1
 --- !u!1 &6230888193016041900
 GameObject:
   m_ObjectHideFlags: 0

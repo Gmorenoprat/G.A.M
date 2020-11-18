@@ -9,6 +9,7 @@ public class WeaponSet : MonoBehaviour
     public string commandShoot;
     public bool teledirigido = false;
     public bool noChargable = false;
+    public bool isUlti;
     Vector3 mousePosInWorld;
     Vector3 mouseWorldPosition;
     Vector3 mousePosition;
@@ -23,12 +24,12 @@ public class WeaponSet : MonoBehaviour
 
     public void Shoot(float shootForce)
     {
-        if(ammo >= 1)
+        if (ammo >= 1)
         {
             GameObject newBullet = GameObject.Instantiate(bullet);
             if (newBullet.GetComponent<bulletSet>() != null)
             {
-                if(teledirigido == true)
+                if (teledirigido == true)
                 {
                     bulletSet fals = newBullet.GetComponent<bulletSet>();
                     mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -46,7 +47,7 @@ public class WeaponSet : MonoBehaviour
                     bulls.shootForce = shootForce;
                     ammo--;
                 }
-            } 
+            }
             else if (newBullet.GetComponent<granada>() != null)
             {
                 granada bulls = newBullet.GetComponent<granada>();
@@ -55,14 +56,14 @@ public class WeaponSet : MonoBehaviour
                 bulls.shootForce = shootForce;
                 ammo--;
             }
-            else if(newBullet.GetComponent<rayoSet>() != null)
+            else if (newBullet.GetComponent<rayoSet>() != null)
             {
                 rayoSet bulls = newBullet.GetComponent<rayoSet>();
                 newBullet.transform.position = bulletSpawn.transform.position;
                 newBullet.transform.up = this.transform.up;
                 ammo--;
             }
-            else if(newBullet.GetComponent<GatoVolador>() != null)
+            else if (newBullet.GetComponent<GatoVolador>() != null)
             {
                 GatoVolador bulls = newBullet.GetComponent<GatoVolador>();
                 newBullet.transform.position = bulletSpawn.transform.position;
@@ -70,12 +71,12 @@ public class WeaponSet : MonoBehaviour
                 bulls.shootForce = shootForce;
                 ammo--;
             }
-            else if(newBullet.tag=="Domo" && teledirigido == true)
+            else if (newBullet.tag == "Domo" && teledirigido == true)
             {
                 mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Vector3 falconSpawnPos = new Vector3(mousePosInWorld.x, mousePosInWorld.y + alturaSpawn, 0);
                 newBullet.transform.position = falconSpawnPos;
-                newBullet.transform.up = gameObject.GetComponentInParent<CharacterSet>().transform.up *-1;
+                newBullet.transform.up = gameObject.GetComponentInParent<CharacterSet>().transform.up * -1;
                 ammo--;
             }
             else if (newBullet.GetComponent<Botella>() != null)
@@ -97,6 +98,12 @@ public class WeaponSet : MonoBehaviour
             }
 
             Camera.main.GetComponent<CameraFollowScript>().SetFollow(newBullet);
+
+            if (isUlti == true)
+            {
+                gameObject.GetComponentInParent<SpecialCoolDown>().coolDown = gameObject.GetComponentInParent<SpecialCoolDown>().coolDownConsigna;
+                gameObject.GetComponentInParent<CharacterSet>().permission = false;
+            }
         }
         ammo++;
     }
