@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Boton_Menus : MonoBehaviour
 {
-    public void Start()
+    public void OnEnable()
     {
         Cursor.visible = true;
     }
@@ -16,7 +16,6 @@ public class Boton_Menus : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
     }
     public void Exit()
     {
@@ -24,7 +23,11 @@ public class Boton_Menus : MonoBehaviour
     }
     public void ReserPlayerPref()
     {
-
         PlayerPrefs.DeleteAll();
+    }
+
+    public void MouseOff()
+    {
+        Cursor.visible = false;
     }
 }

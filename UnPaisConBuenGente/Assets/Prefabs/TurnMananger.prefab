@@ -55,6 +55,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  players: []
   activeCharacter: {fileID: 0}
   esPlayer1: 1
   posA: 0
@@ -63,3 +64,5 @@ MonoBehaviour:
   fondo: {fileID: 0}
   menu_armas: {fileID: 0}
   turnCount: 0
+  turnTimer: 0
+  turnTimerConsigna: 30

@@ -23,6 +23,8 @@ public class TurnMananger : MonoBehaviour
     public menuArmas menu_armas;
 
     public int turnCount=0;
+    public float turnTimer;
+    public float turnTimerConsigna;
 
     private void Start()
     {
@@ -45,6 +47,8 @@ public class TurnMananger : MonoBehaviour
         }
 
         players.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+
+        turnTimer = turnTimerConsigna;
     }
 
     private void Update()
@@ -66,11 +70,19 @@ public class TurnMananger : MonoBehaviour
         {
             cambiarTurno();
         }
+
+        turnTimer -= Time.deltaTime;
+
+        if(turnTimer <= 0)
+        {
+            cambiarTurno();
+        }
     }
      
     public void cambiarTurno()
     {
         turnCount++;
+        turnTimer = turnTimerConsigna;
         //resta un turno al cooldown de cada personaje
         foreach(GameObject player in players)
         {
