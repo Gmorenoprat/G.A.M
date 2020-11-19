@@ -12,11 +12,25 @@ public class UILive : MonoBehaviour
     public GameObject blockedUlti;
     public GameObject[] arrayHeads;
     public GameObject[] arrayPlayers;
+
+    Dictionary<GameObject, GameObject> dic = new Dictionary<GameObject, GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
         turnManager = GameObject.FindGameObjectWithTag("Manager").GetComponent<TurnMananger>();
         activePlayer = turnManager.activeCharacter.GetComponent<CharacterSet>();
+
+        dic.Add(arrayPlayers[0], arrayHeads[0]);
+        dic.Add(arrayPlayers[1], arrayHeads[1]);
+        dic.Add(arrayPlayers[2], arrayHeads[2]);
+        dic.Add(arrayPlayers[3], arrayHeads[3]);
+        dic.Add(arrayPlayers[4], arrayHeads[4]);
+        dic.Add(arrayPlayers[5], arrayHeads[5]);
+        dic.Add(arrayPlayers[6], arrayHeads[6]);
+        dic.Add(arrayPlayers[7], arrayHeads[7]);
+        dic.Add(arrayPlayers[8], arrayHeads[8]);
+        dic.Add(arrayPlayers[9], arrayHeads[9]);
     }
 
     // Update is called once per frame
@@ -34,45 +48,12 @@ public class UILive : MonoBehaviour
             else blockedUlti.SetActive(false);
         }
 
-        if (!arrayPlayers[0])
+        foreach(KeyValuePair<GameObject, GameObject> player in dic)
         {
-            arrayHeads[0].SetActive(true);
-        }
-        if (!arrayPlayers[1])
-        {
-            arrayHeads[1].SetActive(true);
-        }
-        if (!arrayPlayers[2])
-        {
-            arrayHeads[2].SetActive(true);
-        }
-        if (!arrayPlayers[3])
-        {
-            arrayHeads[3].SetActive(true);
-        }
-        if (!arrayPlayers[4])
-        {
-            arrayHeads[4].SetActive(true);
-        }
-        if (!arrayPlayers[5])
-        {
-            arrayHeads[5].SetActive(true);
-        }
-        if (!arrayPlayers[6])
-        {
-            arrayHeads[6].SetActive(true);
-        }
-        if (!arrayPlayers[7])
-        {
-            arrayHeads[7].SetActive(true);
-        }
-        if (!arrayPlayers[8])
-        {
-            arrayHeads[8].SetActive(true);
-        }
-        if (!arrayPlayers[9])
-        {
-            arrayHeads[9].SetActive(true);
+            if (!player.Key)
+            {
+                player.Value.SetActive(true);
+            }
         }
     }
 }
