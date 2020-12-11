@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1952003136}
   - component: {fileID: 1952003137}
   m_Layer: 14
-  m_Name: Kris
+  m_Name: albert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952003135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.068, y: 1.49, z: -1.4577259}
+  m_LocalPosition: {x: 0.16, y: 1.49, z: 0}
   m_LocalScale: {x: -0.1420832, y: 0.10448415, z: 0.09468904}
   m_Children: []
   m_Father: {fileID: 8898550000341883948}
@@ -256,6 +256,7 @@ MonoBehaviour:
   - {fileID: 3851949557291866409, guid: d95aa5354f04c2d4099fbb6901a12428, type: 3}
   - {fileID: 8243385649037028881, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
   buitre: {fileID: 5855294650106568503}
+  permission: 0
 --- !u!114 &4063751956582448228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,8 +326,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81c96881226b3f40a87451c5f3d739e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
   coolDownConsigna: 4
+  coolDown: 0
 --- !u!1 &1836550862040028287
 GameObject:
   m_ObjectHideFlags: 0
