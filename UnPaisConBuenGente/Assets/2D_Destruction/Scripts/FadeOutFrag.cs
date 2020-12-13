@@ -16,6 +16,7 @@ public class FadeOutFrag : MonoBehaviour
    
     void OnEnable()
     {
+       
         //Debug.Log("PrintOnEnable: script was enabled");
     }
 
@@ -26,7 +27,8 @@ public class FadeOutFrag : MonoBehaviour
 
 
         timeToDestroy -= Time.deltaTime;
-               if(timeToDestroy <= 0)
+        if (timeToDestroy <= 1.5f) this.GetComponent<PolygonCollider2D>().enabled = false;
+        if (timeToDestroy <= 0)
                 {
                 Destroy(this.gameObject);
              }

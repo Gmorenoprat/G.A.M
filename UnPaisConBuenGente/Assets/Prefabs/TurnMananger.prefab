@@ -43,23 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97cb5ac618b7164f9da9640ab297052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1Characters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  player2Characters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  player1Characters: []
+  player2Characters: []
   players: []
+  p1Pos: 0
+  p2Pos: 0
   activeCharacter: {fileID: 0}
   esPlayer1: 1
-  posA: 0
-  posB: 0
   timeEspera: 5
   fondo: {fileID: 0}
   menu_armas: {fileID: 0}
