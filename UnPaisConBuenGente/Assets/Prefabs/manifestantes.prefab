@@ -531,7 +531,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f6f988a0fe821ec4ba42c488dc47bb88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -792,7 +792,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f6f988a0fe821ec4ba42c488dc47bb88, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1734,6 +1734,7 @@ MonoBehaviour:
   spawn: {fileID: 3322347127751736732}
   explotionAnim: {fileID: 104408115516464467, guid: c11f94e0c10d1ba4290621b7ce73fadd,
     type: 3}
+  pingusSpriteRend: []
 --- !u!82 &-167768987404994376
 AudioSource:
   m_ObjectHideFlags: 0

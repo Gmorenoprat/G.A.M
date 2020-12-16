@@ -14,12 +14,23 @@ public class Manifestantes : MonoBehaviour
     public GameObject explotionRad,spawn;
     public GameObject explotionAnim;
 
-    public List<SpriteRenderer> pingusSpriteRend;
+    public SpriteRenderer[] pingusSpriteRend;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+
+        pingusSpriteRend = GetComponentsInChildren<SpriteRenderer>();
+
+        if (direction < 0)
+        {
+            foreach (SpriteRenderer child in pingusSpriteRend)
+            {
+                child.flipX = !child.flipX;
+            }
+        }
+
     }
 
     // Update is called once per frame
@@ -67,6 +78,8 @@ public class Manifestantes : MonoBehaviour
         realVelocity.z = 0;
 
         rb.velocity = realVelocity;
+
+     
     }
 
     public void Jump()

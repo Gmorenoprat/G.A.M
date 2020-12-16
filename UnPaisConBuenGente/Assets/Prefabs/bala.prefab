@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &2370431445250445065
 MonoBehaviour:
@@ -123,6 +123,9 @@ MonoBehaviour:
     type: 3}
   explotionAnim: {fileID: 104408115516464467, guid: 1a55943de60543c4fab227bf664392a6,
     type: 3}
+  thisMolo: 0
+  spawns: []
+  explotions: []
 --- !u!70 &8785500891377614677
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
