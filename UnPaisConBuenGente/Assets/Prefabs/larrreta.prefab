@@ -205,6 +205,7 @@ MonoBehaviour:
   - {fileID: 3851949557291866409, guid: 7b3dd68e9a2285e4fbcff49ba581c893, type: 3}
   - {fileID: 8243385649037028881, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
   buitre: {fileID: 1932968659363067946}
+  permission: 0
 --- !u!114 &1018087630076112258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,8 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81c96881226b3f40a87451c5f3d739e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
   coolDownConsigna: 4
+  coolDown: 0
 --- !u!1 &7225759440189714749
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +571,7 @@ GameObject:
   - component: {fileID: 7562269166876307226}
   - component: {fileID: 8720095743527616785}
   m_Layer: 15
-  m_Name: macri
+  m_Name: pelada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -584,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7733022904370069470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 0.95, z: 0}
+  m_LocalPosition: {x: 0.24, y: 1.29, z: 0}
   m_LocalScale: {x: -0.20492803, y: 0.19073921, z: 0.1927827}
   m_Children: []
   m_Father: {fileID: 5565219360067079626}
