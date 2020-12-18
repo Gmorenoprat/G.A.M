@@ -201,7 +201,7 @@ MonoBehaviour:
   arrayWeapons:
   - {fileID: 3851949557291866409, guid: 4d58e9a156c1423499a770579507e74e, type: 3}
   - {fileID: 3851949557291866409, guid: ba81ebeefd43aab4f89dd4c3ffa21e1d, type: 3}
-  - {fileID: 3851949557291866409, guid: 59dae1768ebfd6f47ae70f8c45103cf2, type: 3}
+  - {fileID: 3851949557291866409, guid: a96f92a98b0cf2b45a639e389313df1e, type: 3}
   - {fileID: 3851949557291866409, guid: 2ec7f36ac15941c429bafa79a999f5b8, type: 3}
   - {fileID: 8243385649037028881, guid: a2e5c15806ff76c419ec8501657bdb63, type: 3}
   buitre: {fileID: 4693347265937532633}

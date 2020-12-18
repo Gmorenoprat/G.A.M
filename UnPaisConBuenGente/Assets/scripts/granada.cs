@@ -6,15 +6,18 @@ public class granada : MonoBehaviour
 {
     public float shootForce;
     public float explotionTime;
-    bool exp = false;
+    bool exp = false, mineTrigger=false;
     public GameObject explotionRad;
     public GameObject explotionAnim;
     public AudioSource boingSound;
     public Rigidbody2D rb;
+    SpriteRenderer granadeSprite;
+    public bool isProxMine = false;
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+        granadeSprite = this.GetComponent<SpriteRenderer>();
         rb.velocity = Vector3.zero;
         rb.AddForce(transform.up * shootForce * rb.gravityScale * rb.mass, ForceMode2D.Impulse);
     }
@@ -24,6 +27,7 @@ public class granada : MonoBehaviour
     {
         if (explotionTime <= 0 && !exp)
         {
+            granadeSprite.color = new Color(0, 0, 0, 0);
             GameObject explotionAnimo = GameObject.Instantiate(explotionAnim);
             explotionAnimo.transform.position = this.transform.position;
             GameObject newExplotion = GameObject.Instantiate(explotionRad);
@@ -32,7 +36,18 @@ public class granada : MonoBehaviour
             GameObject.Destroy(newExplotion.gameObject, 0.2f);
             GameObject.Destroy(this.gameObject, 0.2f);
         }
-        explotionTime -= Time.deltaTime;
+        
+        if(isProxMine == true)
+        {
+            if (mineTrigger == true)
+            {
+                explotionTime -= Time.deltaTime;
+            }
+        }
+        else if (isProxMine == false)
+        {
+            explotionTime -= Time.deltaTime;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -40,5 +55,11 @@ public class granada : MonoBehaviour
         boingSound.Play(0);
     }
 
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            mineTrigger = true;
+        }
+    }
 }

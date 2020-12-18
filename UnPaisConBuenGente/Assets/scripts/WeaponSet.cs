@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponSet : MonoBehaviour
 {
     public GameObject bullet, bulletSpawn;
-    public float ammo, alturaSpawn;
+    public float ammo, alturaSpawn, spriteCount;
     public string commandShoot;
     public bool teledirigido = false;
     public bool noChargable = false;
@@ -13,7 +13,7 @@ public class WeaponSet : MonoBehaviour
     Vector3 mousePosInWorld;
     Vector3 mouseWorldPosition;
     Vector3 mousePosition;
-
+    SpriteRenderer bulletSprite;
     public void Update()
     {
         mousePosition = Input.mousePosition;
