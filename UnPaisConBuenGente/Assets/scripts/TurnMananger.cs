@@ -30,6 +30,9 @@ public class TurnMananger : MonoBehaviour
 
     public Animator agujaTurnos;
 
+    public bool ret = false;
+    public GameObject retirada;
+
     private void Awake()
     {
         GameObject[] allCharacters = GameObject.FindGameObjectsWithTag("Player");
@@ -105,6 +108,11 @@ public class TurnMananger : MonoBehaviour
         if(turnTimer <= 0)
         {
             cambiarTurno();
+        }
+
+        if(ret == true)
+        {
+            retirada.SetActive(true);
         }
     }
      

@@ -89,6 +89,26 @@ public class CharacterSet : MonoBehaviour
                 Debug.Log("BuitreNotFOund");
             }
         }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(4);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(5);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(6);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            GameObject.Destroy(currentWeapon.gameObject);
+            InvokeWeapon(7);
+        }
     }
 
     void InvokeWeapon(int variable)

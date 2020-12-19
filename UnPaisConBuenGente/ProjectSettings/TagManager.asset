@@ -11,6 +11,7 @@ TagManager:
   - Buitre
   - Mira
   - Manager
+  - retirada
   layers:
   - Default
   - TransparentFX
