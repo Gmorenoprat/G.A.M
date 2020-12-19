@@ -31,7 +31,7 @@ public class TurnMananger : MonoBehaviour
     public Animator agujaTurnos;
 
     public bool ret = false;
-    public GameObject retirada;
+    public GameObject retirada,flag;
 
     private void Awake()
     {
@@ -113,6 +113,7 @@ public class TurnMananger : MonoBehaviour
         if(ret == true)
         {
             retirada.SetActive(true);
+            flag.SetActive(true);
         }
     }
      
