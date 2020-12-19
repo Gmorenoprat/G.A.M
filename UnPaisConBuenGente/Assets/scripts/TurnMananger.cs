@@ -62,7 +62,6 @@ public class TurnMananger : MonoBehaviour
             esPlayer1 = true;
             esPlayer2 = false;
 
-            agujaTurnos.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -60));
         }
         else
         {
@@ -70,16 +69,17 @@ public class TurnMananger : MonoBehaviour
             activarCharacter(player2Characters[p2Pos]);
             esPlayer1 = false;
             esPlayer2 = true;
-            agujaTurnos.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, 60));
 
         }
          
 
         turnTimer = turnTimerConsigna;
+        cambiarTurno();
     }
 
     private void Update()
     {
+
         if (activeCharacter != null)
         {
             if(activeCharacter.GetComponent<PlayerController>().yaDisparo == true)
