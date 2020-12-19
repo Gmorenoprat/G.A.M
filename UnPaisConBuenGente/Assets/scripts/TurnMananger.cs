@@ -28,6 +28,8 @@ public class TurnMananger : MonoBehaviour
     public float turnTimer;
     public float turnTimerConsigna;
 
+    public Animator agujaTurnos;
+
     private void Awake()
     {
         GameObject[] allCharacters = GameObject.FindGameObjectsWithTag("Player");
@@ -59,6 +61,8 @@ public class TurnMananger : MonoBehaviour
             activarCharacter(player1Characters[p1Pos]);
             esPlayer1 = true;
             esPlayer2 = false;
+
+            agujaTurnos.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, -60));
         }
         else
         {
@@ -66,8 +70,10 @@ public class TurnMananger : MonoBehaviour
             activarCharacter(player2Characters[p2Pos]);
             esPlayer1 = false;
             esPlayer2 = true;
-        }
+            agujaTurnos.gameObject.GetComponent<RectTransform>().Rotate(new Vector3(0, 0, 60));
 
+        }
+         
 
         turnTimer = turnTimerConsigna;
     }
@@ -103,7 +109,8 @@ public class TurnMananger : MonoBehaviour
     }
      
     public void cambiarTurno()
-    {
+    { 
+
         if (fondo != null) fondo.ChangeRandomDirectionSpeed();
 
         timeEspera = 5f;
@@ -123,7 +130,6 @@ public class TurnMananger : MonoBehaviour
         pasarTurno();
 
 
-
     }
 
     private void pasarTurno() 
@@ -133,6 +139,7 @@ public class TurnMananger : MonoBehaviour
         //si esPlayer1 lo desactiva (pasa turno)
         if (esPlayer1)
         {
+            agujaTurnos.Play("rotarDerecha");
             p1Pos += 1;
             p1Pos = p1Pos % player1Characters.Count;
             try
@@ -152,6 +159,7 @@ public class TurnMananger : MonoBehaviour
         }
         if (esPlayer2)
         {
+            agujaTurnos.Play("rotarIzquierda");
             p2Pos += 1;
             p2Pos = p2Pos % player2Characters.Count;
             try
@@ -166,11 +174,7 @@ public class TurnMananger : MonoBehaviour
                 esPlayer2 = !esPlayer2;
                 cambiarTurno();
             }
-           
-        }
-
- 
-        
+        }       
     }
 
     private void activarCharacter(GameObject character) 
@@ -217,7 +221,5 @@ public class TurnMananger : MonoBehaviour
         Camera.main.GetComponent<CameraFollowScript>().SetFollow(character);
     }
 
-
-
-
+  
 }
