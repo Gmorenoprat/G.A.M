@@ -30,7 +30,11 @@ public class CameraFollowScript : MonoBehaviour
             float posX = Mathf.SmoothDamp(this.transform.position.x, follow.transform.position.x, ref velocity.x, smoothTimeX);
             float posY = Mathf.SmoothDamp(this.transform.position.y, follow.transform.position.y, ref velocity.y, smoothTimeY);
 
-            this.gameObject.transform.position = new Vector3(Mathf.Clamp(posX, minCamPos.x, maxCamPos.x), Mathf.Clamp(posY, minCamPos.y, maxCamPos.y), transform.position.z);
+            try
+            {
+                this.gameObject.transform.position = new Vector3(Mathf.Clamp(posX, minCamPos.x, maxCamPos.x), Mathf.Clamp(posY, minCamPos.y, maxCamPos.y), transform.position.z);
+            }
+            catch { }
         }
     }
 
