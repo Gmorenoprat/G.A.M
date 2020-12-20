@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f08da1766140b5b4d85228d0f063cb13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cont: 0.25
+  cont: 0.5
 --- !u!50 &4868286619600630214
 Rigidbody2D:
   serializedVersion: 4
@@ -243,8 +243,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 6.8627563}
-  m_Size: {x: 7.7438025, y: 20.909966}
+  m_Offset: {x: 0, y: 8.67656}
+  m_Size: {x: 7.743743, y: 17.28233}
   m_Direction: 0
 --- !u!95 &5219477912520516182
 Animator:
