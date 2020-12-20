@@ -17,6 +17,33 @@ TextureImporter:
   - first:
       213: 4887568414646988347
     second: baston anim prueba_4
+  - first:
+      213: -2979601712686610399
+    second: baston anim prueba_5
+  - first:
+      213: -4351721647558892000
+    second: baston anim prueba_6
+  - first:
+      213: -5255107236147095555
+    second: baston anim prueba_7
+  - first:
+      213: 8866210734765054095
+    second: baston anim prueba_8
+  - first:
+      213: -4090751286741544162
+    second: baston anim prueba_9
+  - first:
+      213: 6388050532698677009
+    second: baston anim prueba_10
+  - first:
+      213: -7067236578557105917
+    second: baston anim prueba_11
+  - first:
+      213: 8851773667994711725
+    second: baston anim prueba_12
+  - first:
+      213: 8703602407353537501
+    second: baston anim prueba_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -141,17 +168,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 81
-        height: 1313
+        y: 1969
+        width: 140
+        height: 1521
       alignment: 9
-      pivot: {x: 0.54362476, y: 0.082854524}
+      pivot: {x: 0.61145055, y: 0.07598504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b5d403e18a355419d3d4839bcf99c7
+      spriteID: 227361e2ae9b5ae4980771cc52499a44
       internalID: -8694255293069139250
       vertices: []
       indices: 
@@ -161,18 +188,18 @@ TextureImporter:
       name: baston anim prueba_1
       rect:
         serializedVersion: 2
-        x: 379
-        y: 15
-        width: 363
-        height: 1290
+        x: 495
+        y: 1975
+        width: 239
+        height: 1517
       alignment: 9
-      pivot: {x: 0.13982321, y: 0.07815628}
+      pivot: {x: 0.19533753, y: 0.081724025}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e3dfeb21e2e9c4bb3e8e0d65cb8ffa
+      spriteID: cc527aa2af0989b4c9aa6e967ac59320
       internalID: 4352958929178496076
       vertices: []
       indices: 
@@ -182,18 +209,18 @@ TextureImporter:
       name: baston anim prueba_2
       rect:
         serializedVersion: 2
-        x: 969
-        y: 86
-        width: 725
-        height: 1145
+        x: 1232
+        y: 1934
+        width: 345
+        height: 1558
       alignment: 9
-      pivot: {x: 0.090586945, y: 0.07719932}
+      pivot: {x: 0.12311446, y: 0.06936336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cafcbc1b0be456d46b52c55c9c8f8bed
+      spriteID: 213e20c9348872e408b3dc714bbbb779
       internalID: 1225476516331317997
       vertices: []
       indices: 
@@ -203,18 +230,18 @@ TextureImporter:
       name: baston anim prueba_3
       rect:
         serializedVersion: 2
-        x: 1854
-        y: 25
-        width: 1142
-        height: 727
+        x: 2034
+        y: 1982
+        width: 664
+        height: 1411
       alignment: 9
-      pivot: {x: 0.07608871, y: 0.086852565}
+      pivot: {x: 0.092690706, y: 0.065045565}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92bb1d770e1e926478bc77fcc5e6351c
+      spriteID: ad6cadfd57749214f822e62f8b3d03a7
       internalID: -7950305663810503536
       vertices: []
       indices: 
@@ -224,19 +251,208 @@ TextureImporter:
       name: baston anim prueba_4
       rect:
         serializedVersion: 2
-        x: 3538
-        y: 58
-        width: 1296
-        height: 1225
+        x: 2871
+        y: 1948
+        width: 1036
+        height: 1181
       alignment: 9
-      pivot: {x: 0.06920313, y: 0.24038671}
+      pivot: {x: 0.08331582, y: 0.07282047}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13ad1587e688d4d4898c97a34358fef8
+      spriteID: 876d850896e9b7643a4da50a2d2ddf37
       internalID: 4887568414646988347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1975
+        width: 1383
+        height: 730
+      alignment: 9
+      pivot: {x: 0.07128236, y: 0.093892805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cfc149deb085b4688795767f9cf6d2
+      internalID: -2979601712686610399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_6
+      rect:
+        serializedVersion: 2
+        x: 5609
+        y: 1970
+        width: 1506
+        height: 318
+      alignment: 9
+      pivot: {x: 0.068308145, y: 0.14018087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2d715c9c4be1648b55a7af11cc3776
+      internalID: -4351721647558892000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1520
+        height: 202
+      alignment: 9
+      pivot: {x: 0.072284244, y: 0.7317292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d98fcf000266a449df624c7a746466
+      internalID: -5255107236147095555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_8
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 113
+        width: 1379
+        height: 730
+      alignment: 9
+      pivot: {x: 0.07381023, y: 0.086767994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c799be66f007c43bf1ba2f94d0700e
+      internalID: 8866210734765054095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_9
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 85
+        width: 1035
+        height: 1181
+      alignment: 9
+      pivot: {x: 0.08291322, y: 0.07722432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a6d76ddeb797408d16eb821647c8b
+      internalID: -4090751286741544162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_10
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 120
+        width: 666
+        height: 1411
+      alignment: 9
+      pivot: {x: 0.093914226, y: 0.07241766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1c973554121e749ba22cd7b910abf0
+      internalID: 6388050532698677009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_11
+      rect:
+        serializedVersion: 2
+        x: 5550
+        y: 68
+        width: 347
+        height: 1504
+      alignment: 9
+      pivot: {x: 0.14027603, y: 0.06773408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01de90529316cc40bb1920cd9c9c4a3
+      internalID: -7067236578557105917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_12
+      rect:
+        serializedVersion: 2
+        x: 6394
+        y: 114
+        width: 240
+        height: 1517
+      alignment: 9
+      pivot: {x: 0.17493694, y: 0.07143843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9029a95b377a1a46ade2cab35ac470e
+      internalID: 8851773667994711725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baston anim prueba_13
+      rect:
+        serializedVersion: 2
+        x: 6971
+        y: 106
+        width: 144
+        height: 1523
+      alignment: 9
+      pivot: {x: 0.24717204, y: 0.07995672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755238d173809d4e991fc311f099389
+      internalID: 8703602407353537501
       vertices: []
       indices: 
       edges: []
