@@ -141,6 +141,7 @@ MonoBehaviour:
     type: 3}
   boingSound: {fileID: -8365950110890895031}
   rb: {fileID: 0}
+  isProxMine: 0
 --- !u!82 &-8365950110890895031
 AudioSource:
   m_ObjectHideFlags: 0
