@@ -4,27 +4,25 @@ using UnityEngine;
 
 public class ForceAddHit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<Rigidbody2D>().AddForce
-            (this.gameObject.transform.up * 80, ForceMode2D.Impulse);
+        if (collision.gameObject.layer == 14 || collision.gameObject.layer == 15)
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().AddForce
+                ((this.gameObject.transform.up + Vector3.up) * 120, ForceMode2D.Impulse);
+            
+        }
     }
 
-    public void OnTriggerStay2D(Collider2D collision)
+   /*public void OnTriggerStay2D(Collider2D collision)
     {
         collision.gameObject.GetComponent<Rigidbody2D>().AddForce
             (this.gameObject.transform.up * 80, ForceMode2D.Impulse);
+    }*/
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, 2f);
     }
 }

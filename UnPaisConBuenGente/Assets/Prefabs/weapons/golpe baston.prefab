@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 8811850497026984632}
   - component: {fileID: -6168626152594276149}
   - component: {fileID: 4868286619600630214}
-  - component: {fileID: 1490462142918176830}
   - component: {fileID: -7002412245297948574}
   - component: {fileID: 7875285635733240690}
   - component: {fileID: 5219477912520516182}
   - component: {fileID: -4618967092869510853}
   - component: {fileID: 5175353173540269491}
+  - component: {fileID: 3664217710937040984}
+  - component: {fileID: 6182746403661410270}
   m_Layer: 10
   m_Name: golpe baston
   m_TagString: Untagged
@@ -122,19 +123,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1490462142918176830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2775251851917924558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df35c7c399ca48442a406f6578bec392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 15
 --- !u!82 &-7002412245297948574
 AudioSource:
   m_ObjectHideFlags: 0
@@ -245,7 +233,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 8.15891}
+  m_Offset: {x: -0.0000013055184, y: 8.15891}
   m_Size: {x: 10.872438, y: 18.317616}
   m_Direction: 0
 --- !u!95 &5219477912520516182
@@ -286,7 +274,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2775251851917924558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -295,3 +283,42 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 4.7202616}
   m_Size: {x: 12.740117, y: 22.089039}
   m_Direction: 0
+--- !u!61 &3664217710937040984
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775251851917924558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000035762787, y: 8.45}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.334814, y: 15}
+  m_EdgeRadius: 0
+--- !u!114 &6182746403661410270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2775251851917924558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df35c7c399ca48442a406f6578bec392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 15

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2971780769973837103}
   - component: {fileID: 7762645423918951213}
   - component: {fileID: 2486739873805293727}
+  - component: {fileID: 5424387373827897739}
   m_Layer: 0
   m_Name: mano banana
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3851949557291866409}
   m_LocalRotation: {x: 0, y: 0, z: 0.0008988167, w: 0.9999996}
-  m_LocalPosition: {x: 10.47, y: 27.97, z: 0}
-  m_LocalScale: {x: 0.13557933, y: 0.13557933, z: 0.13557933}
+  m_LocalPosition: {x: 11.866, y: 26.638, z: 0}
+  m_LocalScale: {x: 0.028715605, y: 0.029579155, z: 0.13557933}
   m_Children:
   - {fileID: 4933389439835424327}
   m_Father: {fileID: 0}
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 66a708792bad7fa48992c5d8aa20e6bc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb3e38adab267d047942290bda30907a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,10 +99,23 @@ MonoBehaviour:
   bulletSpawn: {fileID: 6230888193016041900}
   ammo: 1
   alturaSpawn: 0
+  spriteCount: 0
   commandShoot: Fire1
   teledirigido: 0
   noChargable: 0
   isUlti: 0
+--- !u!114 &5424387373827897739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3851949557291866409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45d7fbfe2d2b184abd7c528a85045a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6230888193016041900
 GameObject:
   m_ObjectHideFlags: 0
